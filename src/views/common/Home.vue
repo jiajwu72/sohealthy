@@ -1,7 +1,7 @@
 <template>
 
   <div>
-    <header class="masthead">
+    <header class="masthead index">
         <div class="container">
             <div class="masthead-subheading">Welcome To Our Studio!</div>
             <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
@@ -62,6 +62,11 @@
                       </v-card-text>
                     </div>
                   </v-expand-transition>
+                  <div class="go-corner" href="#">
+                    <div class="go-arrow">
+                      →
+                    </div>
+                  </div>
                 </b-card>
               </b-col>
             </b-row>
@@ -188,10 +193,32 @@
     -moz-transform: scale(1);
     transition: all 200ms ease-in;
     transform: scale(1);
+
+    background-color: #f2f8f9;
+
+    /* &:before {
+     content: "";
+     position: absolute;
+     z-index: -1;
+     top: -16px;
+     right: -16px;
+     background: #00838d;
+     height: 32px;
+     width: 32px;
+     border-radius: 32px;
+     transform: scale(1);
+     transform-origin: 50% 50%;
+     transition: transform 0.25s ease-out;
+   }
+
+   &:hover:before {
+     transform: scale(21);
+   } */
 }
 
 .card_personel:hover {
   z-index:999;
+  /* background-color: red; */
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   -webkit-transition: all 200ms ease-in;
    -webkit-transform: scale(1.5);
@@ -201,6 +228,31 @@
    -moz-transform: scale(1.5);
    transition: all 300ms ease-in;
    transform: scale(1.1);
+   /* background-color: #f2f8f9; */
+
+   background: #87CEFA;
+
+}
+
+.go-corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  background-color: #00838d;
+  border-radius: 0 4px 0 32px;
+}
+
+.go-arrow {
+  margin-top: -4px;
+  margin-right: -4px;
+  color: white;
+  font-family: courier, sans;
 }
 
 
