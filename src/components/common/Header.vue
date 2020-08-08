@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="images/environment/651596877739_.pic.jpg" alt="" /></a> -->
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="images/environment/721596877954_.pic_hd.jpg" alt="" /></a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="images/environment/logo.jpg" alt="" /></a>
 
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -11,21 +11,27 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
-                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">印尼014燕窝</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">印尼014燕窝</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">希腊野生海参</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">冰岛红极参</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">北海鱼胶</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">冰岛鳕鱼胶</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">伊朗藏红花</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">西班牙火腿</a></li> -->
-                    <li class="nav-item">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">西班牙火腿</a></li>
+                    <!-- <li class="nav-item">
                       <a class="nav-link js-scroll-trigger"
                           style="cursor:pointer;"
                           @click="drawer = !drawer ">
                         产品
                       </a>
                     </li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">联系我们</a></li>
+                    <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger"
+                          href="#team"
+                          style="cursor:pointer;">
+                        联系我们
+                      </a>
+                    </li> -->
 
                 </ul>
             </div>
@@ -93,7 +99,7 @@ export default{
           { title: '冰岛鳕鱼胶', icon: 'mdi-home-city' },
           { title: '伊朗藏红花', icon: 'mdi-home-city' },
           { title: '西班牙火腿', icon: 'mdi-home-city' },
-          
+
         ],
     };
 

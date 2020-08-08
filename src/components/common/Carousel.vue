@@ -18,9 +18,9 @@
       jzhd
 </div> -->
       <div class="content">
-        <!-- <v-container> -->
-          <v-row>
-            <!-- <v-col class="col" >
+        <!-- <v-container>
+          <b-row>
+            <b-col class="col" >
               <div class="vetical-middle">
                 <a href="">
                   <v-btn class="ma-2" tile outlined >
@@ -40,9 +40,9 @@
                   mdi-chevron-left
                 </v-icon>
               </div>
-            </v-col> -->
+            </b-col>
 
-            <v-col class="col" style="text-align:center;" >
+            <b-col class="col" style="text-align:center;" >
               <div class="vetical-middle">
               <label class="bigTitle"> Collection </label><br>
               Promo du jour<br><br>
@@ -50,9 +50,9 @@
                 View
               </v-btn>
               </div>
-            </v-col>
+            </b-col>
 
-            <!-- <v-col class="col" >
+            <b-col class="col" >
               <div class="vetical-middle" style="float:right;">
 
                 <v-icon x-large v-if="isMobile==false">
@@ -73,10 +73,10 @@
                   </v-btn>
                 </a>
               </div>
-            </v-col> -->
-
-          </v-row>
-        <!-- </v-container> -->
+            </b-col>
+          </b-row>
+        </v-container> -->
+        lkjsdqnfkbhs
       </div>
 
     </v-carousel-item>

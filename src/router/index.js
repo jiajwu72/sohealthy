@@ -1,10 +1,10 @@
 //import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/views/common/Home'
-import Match from '@/views/common/Match'
-import ProfileOther from '@/views/common/ProfileOther'
-import ProfileUser from '@/views/common/ProfileUser'
-import Reset from '@/views/common/Reset'
+import Ynyanwo from '@/views/common/Ynyanwo'
+// import ProfileOther from '@/views/common/ProfileOther'
+// import ProfileUser from '@/views/common/ProfileUser'
+// import Reset from '@/views/common/Reset'
 import AuthMiddleware from '@/middleware/auth'
 
 
@@ -19,34 +19,12 @@ const router= new Router({
       // }
     },
     {
-      path:'/match',
-      name:'match',
-      component:Match,
-      meta: {
-        requiresAuth: true
-      }
+      path:'/ynyanwo',
+      name:'ynyanwo',
+      component:Ynyanwo,
+
     },
-    {
-      path:'/profile/:id',
-      name:'profileOther',
-      component:ProfileOther,
-      meta: {
-        requiresAuth: true
-      }
-    },
-    {
-      path:'/myProfile',
-      name:'myProfile',
-      component:ProfileUser,
-      meta: {
-        requiresAuth: true
-      },
-    },
-    {
-        path:'/reset/:token',
-        name:'reset',
-        component:Reset,
-    },
+    
   ],
   mode:'history',
 })

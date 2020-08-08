@@ -1,21 +1,14 @@
 <template>
 
   <div>
-    <header class="masthead index">
+    <!-- <header class="masthead index">
         <div class="container">
             <div class="masthead-subheading">Welcome To Our Studio!</div>
             <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">了解更多</a>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">联系我们</a>
         </div>
-    </header>
-
-    <!-- <v-row class="product">
-      <b-col md="12">
-        <b-breadcrumb :items="items" ></b-breadcrumb>
-      </b-col>
-
-      dskmf,kldf,skd
-    </v-row> -->
+    </header> -->
+    <Carousel :slides="slidesItem" ></Carousel>
     <div class="singular common parallax">
       <div class="container">
         <b-card
@@ -75,66 +68,13 @@
         </b-card>
       </div>
     </div>
-    <div class="plural common parallax">
-      <!-- <v-parallax
-        dark
-        src="images/bg1.jpg"
-      >
-        <v-row
-          align="center"
-          justify="center"
-        >
-          <v-col class="text-center" cols="18">
-            <h1 class="display-1 font-weight-thin mb-4">我们的工厂</h1>
+    <div class="plural common parallax" id="contact">
 
-          </v-col>
-        </v-row>
-      </v-parallax> -->
     </div>
 
 
 
-    <section class="page-section" id="contact">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">地图坐标</h2>
-                <GoogleMap></GoogleMap>
 
-                <h3 class=" text-muted">
-                  11 rue de la présentation <br>
-                  75011 PARIS 11
-                </h3>
-            </div>
-            <!-- <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                <div class="row align-items-stretch mb-5">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input class="form-control" id="name" type="text" placeholder="您的称呼 *" required="required" data-validation-required-message="Please enter your name." />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" id="email" type="email" placeholder="您的邮箱 *" required="required" data-validation-required-message="Please enter your email address." />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="form-group mb-md-0">
-                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number." />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group form-group-textarea mb-md-0">
-                            <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <div id="success"></div>
-                    <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
-                </div>
-            </form> -->
-        </div>
-    </section>
 
   </div>
 
@@ -142,14 +82,15 @@
 
 <script>
 
-   // import Carousel from '@/components/common/Carousel';
-   import GoogleMap from '@/components/common/GoogleMap';
+   import Carousel from '@/components/common/Carousel';
+   // import GoogleMap from '@/components/common/GoogleMap';
    // import Card from '@/components/commun/Card';
 
   export default{
     name:"Home",
     components:{
-       GoogleMap,
+       // GoogleMap,
+       Carousel
     },
     props:[
 
@@ -158,6 +99,16 @@
       return{
         products_hot:[1,2,3,4,5,6,],
         show:false,
+        slidesItem:[
+          {
+            src: '/assets/img/header-bg.jpg',
+          },
+          {
+            src: '/assets/img/header-bg.jpg',
+          },
+
+        ],
+
       }
     },
 
