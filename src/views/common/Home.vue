@@ -64,7 +64,7 @@
                   </v-expand-transition>
                   <div class="go-corner" href="#">
                     <div class="go-arrow">
-                      →
+                      火爆
                     </div>
                   </div>
                 </b-card>
@@ -219,7 +219,8 @@
 .card_personel:hover {
   z-index:999;
   /* background-color: red; */
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  /* 135,206,250  (135,206,250,0.22)*/
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(200,206,250,0.22);
   -webkit-transition: all 200ms ease-in;
    -webkit-transform: scale(1.5);
    -ms-transition: all 200ms ease-in;
@@ -234,6 +235,7 @@
 
 }
 
+/* #00838d; */
 .go-corner {
   display: flex;
   align-items: center;
@@ -244,7 +246,7 @@
   overflow: hidden;
   top: 0;
   right: 0;
-  background-color: #00838d;
+  background-color: red;
   border-radius: 0 4px 0 32px;
 }
 
