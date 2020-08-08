@@ -94,7 +94,11 @@
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">地图坐标</h2>
                 <GoogleMap></GoogleMap>
-                <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+
+                <h3 class=" text-muted">
+                  11 rue de la présentation <br>
+                  75011 PARIS 11
+                </h3>
             </div>
             <!-- <form id="contactForm" name="sentMessage" novalidate="novalidate">
                 <div class="row align-items-stretch mb-5">

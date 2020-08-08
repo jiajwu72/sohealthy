@@ -3,13 +3,13 @@
     <v-card :color="'beige'" class="card_box">
 
     <GmapMap
-        :center="{lat:49.0954795, lng:2.7483926}"
+        :center="{lat:48.871207, lng:2.376336}"
         :zoom="17"
         map-type-id="terrain"
         style="width: auto; height: 400px"
     >
     <GmapMarker ref="myMarker"
-      :position="google && new google.maps.LatLng(49.0954795, 2.7483926)" />
+      :position="google && new google.maps.LatLng(48.871207, 2.376336)" />
     </GmapMap>
       <!-- <v-card-title>Retrouvez notre magasin sur google map</v-card-title> -->
     <!-- <v-card-text class="text--primary">
