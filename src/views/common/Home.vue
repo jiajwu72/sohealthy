@@ -69,7 +69,7 @@
       </div>
     </div>
     <div class="plural common parallax" id="contact">
-
+      <TimeLine></TimeLine>
     </div>
 
 
@@ -83,14 +83,15 @@
 <script>
 
    import Carousel from '@/components/common/Carousel';
-   // import GoogleMap from '@/components/common/GoogleMap';
+   import TimeLine from '@/components/common/TimeLine';
    // import Card from '@/components/commun/Card';
 
   export default{
     name:"Home",
     components:{
        // GoogleMap,
-       Carousel
+       Carousel,
+       TimeLine
     },
     props:[
 
