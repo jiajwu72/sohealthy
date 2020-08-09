@@ -22,9 +22,8 @@ const router= new Router({
       path:'/ynyanwo',
       name:'ynyanwo',
       component:Ynyanwo,
-
     },
-    
+
   ],
   mode:'history',
 })

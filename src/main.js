@@ -62,6 +62,11 @@ Vue.use(VueGoogleMaps, {
   // installComponents: true,
 })
 
+import LoadScript from 'vue-plugin-load-script';
+
+Vue.use(LoadScript);
+// Vue.loadScript("/js/porfolio1.js")
+// Vue.loadScript("/js/textDisplay1.js")
 new Vue({
   el:'#app',
   router,

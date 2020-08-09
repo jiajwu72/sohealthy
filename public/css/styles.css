@@ -3943,6 +3943,12 @@ input[type=button].btn-block {
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
+/* .nav-tabs .nav-item.show .nav-link:hover {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+} */
+
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
   border-top-left-radius: 0;
@@ -10096,10 +10102,22 @@ img::-moz-selection {
   color:#fed136;
   letter-spacing: 0.0625em;
 }
-#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
 
+.list{
+  display: none;
+  background-color: red;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover{
+  /* display: block; */
   color: #fff;
 }
+
+#mainNav .navbar-nav .nav-item .nav-link:hover #mainNav .navbar-nav .nav-item .nav-link:hover .nav-link{
+  display: block;
+  background-color: #fff;
+}
+
 
 @media (min-width: 992px) {
   #mainNav {
