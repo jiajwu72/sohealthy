@@ -11,7 +11,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">印尼014燕窝</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="ynyanwo">印尼014燕窝</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">希腊野生海参</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">冰岛红极参</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">北海鱼胶</a></li>
