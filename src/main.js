@@ -37,6 +37,10 @@ Vue.config.productionTip = false
 Vue.use(router)
 Vue.use(VueRouter)
 
+import VueCoreVideoPlayer from 'vue-core-video-player'
+
+Vue.use(VueCoreVideoPlayer)
+
 Vue.use(VueGoogleMaps, {
   load: {
     key: 'AIzaSyBvq0zBoCt1a14pp8hGfYf9HRPM81DEx4k',

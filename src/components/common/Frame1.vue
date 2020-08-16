@@ -27,9 +27,11 @@
 </script>
 
 <style scoped>
+@media screen and (max-width: 600px) {
 .content{
   /* margin-top:58px;
   background-color: #faf9f8; */
+  margin-top:80px;
 }
-
+}
 </style>

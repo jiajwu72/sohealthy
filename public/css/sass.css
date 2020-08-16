@@ -1,19 +1,17 @@
-/* *,
+*,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
 
-body {
+.timeline {
   font: normal 16px/1.5 "Titillium Web", sans-serif;
   background: linear-gradient(54deg, #9164ff, #8bfff4);
   color: #3c3f64;
   overflow-x: hidden;
-  padding-bottom: 50px;
 }
-
 .timeline ul li {
   list-style-type: none;
   position: relative;

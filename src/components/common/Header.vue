@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="images/environment/651596877739_.pic.jpg" alt="" /></a>
+        <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="images/environment/651596877739_.pic.jpg" alt="" /></a> -->
             <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="images/environment/logo.jpg" alt="" /></a>
 
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,14 +11,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="ynyanwo">印尼014燕窝</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">希腊野生海参</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">冰岛红极参</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">北海鱼胶</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">冰岛鳕鱼胶</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="ynyanwo"><h6>印尼014燕窝</h6></a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio"><h6>希腊野生海参</h6></a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about"> <h6>冰岛红极参</h6> </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team"> <h6>北海鱼胶</h6> </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team"> <h6>冰岛鳕鱼胶</h6> </a></li>
                     <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">鱼胶</a></li> -->
                     <li class="nav-item">
-                      <span class="nav-link js-scroll-trigger list_parent">鱼胶</span>
+                      <span class="nav-link js-scroll-trigger list_parent">
+                        <h5>鱼胶</h5>
+                      </span>
                       <div class="list">
                         display me
                       </div>
@@ -28,8 +30,8 @@
                       </ul>
 
                     </li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">伊朗藏红花</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">西班牙火腿</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team"><h6>伊朗藏红花</h6></a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team"> <h6>西班牙火腿</h6> </a></li>
                 </ul>
             </div>
       </div>

@@ -102,7 +102,7 @@
         show:false,
         slidesItem:[
           {
-            src: '/assets/img/header-bg.jpg',
+            src: '/images/environment/magasin.jpg',
           },
           {
             src: '/assets/img/header-bg.jpg',
