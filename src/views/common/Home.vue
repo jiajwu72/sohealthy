@@ -97,9 +97,9 @@
 
     ],
     metaInfo: {
-        title: 'So Healthy',
+        title: '燕参堂',
         // override the parent template and just use the above title only
-        titleTemplate: '%s | 首页',
+        titleTemplate: '%s',
         meta: [
           { name: 'description', content: '寻找欧洲代理商' },
           { name: 'keywords', content: 'so healthy,sohealthy.eu,欧洲代理,兼职' },

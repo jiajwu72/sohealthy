@@ -17,7 +17,7 @@ import VideoPlayer from '@/components/common/Main';
 export default{
   name:"Ynyanwo",
   metaInfo: {
-      title: 'So Healthy',
+      title: '燕参堂',
       // override the parent template and just use the above title only
       titleTemplate: '%s | 印尼燕窝',
       meta: [
