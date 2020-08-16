@@ -11,15 +11,15 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="ynyanwo"><h6>印尼014燕窝</h6></a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio"><h6>希腊野生海参</h6></a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about"> <h6>冰岛红极参</h6> </a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team"> <h6>北海鱼胶</h6> </a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team"> <h6>冰岛鳕鱼胶</h6> </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="ynyanwo">印尼014燕窝</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">希腊野生海参</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about"> 冰岛红极参 </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team"> 北海鱼胶 </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team"> 冰岛鳕鱼胶 </a></li>
                     <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">鱼胶</a></li> -->
                     <li class="nav-item">
                       <span class="nav-link js-scroll-trigger list_parent">
-                        <h5>鱼胶</h5>
+                        鱼胶
                       </span>
                       <div class="list">
                         display me
@@ -30,8 +30,8 @@
                       </ul>
 
                     </li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team"><h6>伊朗藏红花</h6></a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team"> <h6>西班牙火腿</h6> </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">伊朗藏红花</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team"> 西班牙火腿 </a></li>
                 </ul>
             </div>
       </div>
@@ -51,7 +51,7 @@ window.onscroll = function() {
     if (prevScrollpos > currentScrollPos) {
       document.getElementById("mainNav").style.top = "0";
     } else if(prevScrollpos <= currentScrollPos && window.scrollY>80) {
-      document.getElementById("mainNav").style.top = "-120px";
+      document.getElementById("mainNav").style.top = "-150px";
     }
     prevScrollpos = currentScrollPos;
 }

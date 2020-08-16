@@ -25,7 +25,7 @@
             <h4>
               11 rue de la présentation <br>
               75011 PARIS 11 <br>
-              Métro Belleville ligne 11 2
+              Métro Belleville ligne 11 2 <br>
               tél : +337 69 88 20 88
             </h4>
 

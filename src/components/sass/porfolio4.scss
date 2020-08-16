@@ -1,0 +1,83 @@
+$largeur: 300px;
+
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+body {
+	// width: 100%;
+	// height: 100vh;
+	// margin: 0;
+	// padding: 0;
+	// color: #F0E5ED;
+	// font-family: 'Karla', sans-serif;
+	// text-shadow: 0 3px 30px rgba(0,0,0,.2);
+	// text-align: center;
+	// background: #9cafbc;
+}
+
+.container {
+	// height: 100%;
+	// wdith: 100%;
+	// display: flex;
+	// flex-direction: column;
+	// justify-content: center;
+	// align-items: center;
+}
+
+.heading,
+#gallery {
+	justify-content: center;
+	align-content: center;
+	width: $largeur;
+}
+
+.heading {
+	margin-bottom: 30px;
+
+	h1 {
+		margin: 0 auto 5px;
+		letter-spacing: -2px;
+		text-shadow: 0 1px 3px rgba(0,0,0,.2);
+	}
+
+	span {
+		font-size: .65em;
+		font-weight: 900;
+		letter-spacing: .1rem;
+		text-transform: uppercase;
+		text-shadow: 0 1px 3px rgba(0,0,0,.2);
+	}
+}
+
+#gallery {
+	position: relative;
+	display: inline-block;
+	margin: 30px 20px 0 0;
+	height: $largeur;
+
+	.photo {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: $largeur;
+		height: $largeur;
+		padding: 10px;
+		background: linear-gradient(to bottom, #FFFFFF, #CFCFCF, #FFFFFF);
+		border-radius: 2px;
+		box-shadow: 0 2px 6px rgba(0,0,0,.6);
+
+		&:last-child {
+			cursor: pointer;
+		}
+
+		.imgContainer {
+			height: $largeur;
+			border: 1px solid rgba(0,0,0,.3);
+			overflow: hidden;
+
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+		}
+	}
+}

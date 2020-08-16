@@ -1,25 +1,14 @@
-// Các bạn có thể thay đổi giá trị các biến môi trường ở đây:
-var radius = 240; // Độ rộng vòng xoay
-var autoRotate = true; // Tự động xoay hay không
-var rotateSpeed = -60; // đơn vị: giây/vòng. thời gian để xoay hết 1 vòng, dấu trừ để xoay ngược lại
-var imgWidth = 120; // độ rộng ảnh (tính theo px)
-var imgHeight = 170; // độ cao ảnh (tính theo px)
 
-// Link nhạc nền - cho bằng null nếu không muốn nhạc nền
+var radius = 240;
+var autoRotate = true;
+var rotateSpeed = -60;
+var imgWidth = 120;
+var imgHeight = 170;
+
+
 var bgMusicURL = 'https://api.soundcloud.com/tracks/143041228/stream?client_id=587aa2d384f7333a886010d5f52f302a';
-// var bgMusicControls = true; 
+// var bgMusicControls = true;
 
-/*
-        CHÚ Ý:
-            + imgWidth, imgHeight sẽ dùng được cho cả video -> <video> cũng sẽ được thu nhỏ cho bằng <img>
-            + nếu imgWidth, imgHeight đủ nhỏ, có thể <video> sẽ không hiện nút play/pause
-            + Link nhạc lấy từ: https://hoangtran0410.github.io/Visualyze-design-your-own-/?theme=HoangTran&playlist=2&song=8&background=3
-            + https://api.soundcloud.com/tracks/191576787/stream?client_id=587aa2d384f7333a886010d5f52f302a
-            + Phiên bản 1 file .html duy nhất: https://github.com/HoangTran0410/3DCarousel/blob/master/index.html
-
-        Author: Hoang Tran, custom from code in tiktok video
-                https://www.facebook.com/J2TEAM.ManhTuan/videos/1353367338135935/
-    */
 
 
 // ===================== start =======================
@@ -31,11 +20,11 @@ var aImg = ospin.getElementsByTagName('img');
 var aVid = ospin.getElementsByTagName('video');
 var aEle = [...aImg, ...aVid]; // gộp 2 mảng lại
 
-// chỉnh độ lớn ảnh
+
 ospin.style.width = imgWidth + "px";
 ospin.style.height = imgHeight + "px";
 
-// chỉnh độ lớn ground - theo radius
+
 var ground = document.getElementById('ground');
 ground.style.width = radius * 3 + "px";
 ground.style.height = radius * 3 + "px";
@@ -49,11 +38,11 @@ function init(delayTime) {
 }
 
 function applyTranform(obj) {
-  // Không cho góc xoay phương Y ra ngoài khoảng 0-180
+
   if(tY > 180) tY = 180;
   if(tY < 0) tY = 0;
 
-  // Áp dụng góc xoay
+
   obj.style.transform = "rotateX(" + (-tY) + "deg) rotateY(" + (tX) + "deg)";
 }
 
@@ -66,22 +55,11 @@ var sX, sY, nX, nY, desX = 0,
     tX = 0,
     tY = 10;
 
-// tự động xoay
 if (autoRotate) {
   var animationName = (rotateSpeed > 0 ? 'spin' : 'spinRevert');
   ospin.style.animation = `${animationName} ${Math.abs(rotateSpeed)}s infinite linear`;
 }
 
-// thêm nhạc nền
-// if (bgMusicURL) {
-//   document.getElementById('music-container').innerHTML += `
-// <audio src="${bgMusicURL}" ${bgMusicControls? 'controls': ''} autoplay loop>
-// <p>If you are reading this, it is because your browser does not support the audio element.</p>
-// </audio>
-// `;
-// }
-
-// cài đặt events
 if (mobilecheck()) {
   // ==================== Touch Events ====================
   document.ontouchstart = function(e) {
@@ -163,7 +141,7 @@ if (mobilecheck()) {
   document.onmousewheel = function(e) {
     e = e || window.event;
     var d = e.wheelDelta / 20 || -e.detail;
-    radius += d;
+    // radius += d;
     init(1);
   };
 }

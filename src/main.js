@@ -19,6 +19,9 @@ require('dotenv').config()
 import VueCookies from 'vue-cookies'
 Vue.use(VueCookies)
 
+import VueMeta from 'vue-meta'
+Vue.use(VueMeta)
+
 // set default config
 Vue.$cookies.config('7d')
 

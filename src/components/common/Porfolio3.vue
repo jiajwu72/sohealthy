@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-bottom:180px;margin-top:100px;">
+  <div class="porfolio3">
     <div id="drag-container">
   <div id="spin-container">
     <!-- Đổi <div> (theo video) thành <img> để dễ dàng thêm, sửa, xoá các hình -->
@@ -62,14 +62,28 @@ export default{
 </script>
 
 <style scoped>
-* {
+@media screen and (max-width: 600px) {
+
+}
+@media screen and (min-width: 600px) {
+  /* .porfolio3{
+    margin-bottom:180px;
+  } */
+}
+.porfolio3{
+  margin-top:180px;
+  margin-bottom:180px;
+  max-width: 100%;
+}
+/* * {
 margin: 0;
 padding: 0;
-}
+} */
 
 html,
 body {
-height: 100%;
+  height: 100%;
+  /* width: 100%; */
 }
 
 body {
