@@ -20,11 +20,12 @@ export default {
   name: 'MovieItem',
   methods: {
     changeMovie () {
-      if (location.search) {
-        location.href = location.href.replace(/\?vid=([a-z]+)/, '?vid=' + this.item.id)
-      } else {
-        location.href = location.href + '?vid=' + this.item.id
-      }
+      window.location="/ynyanwo?vid="+ this.item.id
+      // if (location.search) {
+      //   location.href = location.href.replace(/\?vid=([a-z]+)/, '?vid=' + this.item.id)
+      // } else {
+      //   location.href = location.href + '?vid=' + this.item.id
+      // }
     }
   },
 }
@@ -89,4 +90,3 @@ export default {
   }
 
 </style>
-

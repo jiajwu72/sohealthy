@@ -1,18 +1,48 @@
 <template>
+
+  <article>
+    <figure>
+      <img :src='product.items[0].img' alt />
+    </figure>
+    <section>
+        <div>
+          <h1>{{product.items[0].title}}</h1>
+          <p><TextDisplay1 :text="product.items[0].text"></TextDisplay1></p>
+        </div>
+    </section>
+    <figure>
+      <img :src='product.items[1].img' alt />
+    </figure>
+    <section>
+        <div>
+          <h1>{{product.items[1].title}}</h1>
+          <p><TextDisplay1 :text="product.items[1].text"></TextDisplay1></p>
+        </div>
+    </section>
+
+    <figure>
+      <img :src='product.items[2].img' alt />
+    </figure>
+    <section>
+        <div>
+          <h1>{{product.items[2].title}}</h1>
+          <p><TextDisplay1 :text="product.items[2].text"></TextDisplay1></p>
+        </div>
+    </section>
+  </article>
+
   <!-- <div> -->
 
-    <article class="mag">
-			
+    <!-- <article>
 			<figure>
 				<img :src='product.items[0].img' alt />
 			</figure>
 			<section>
 					<div>
-						<h1>{{product.items[0].title}}</h1>
+						<h1>{{product.items[0].title}}111</h1>
 						<p><TextDisplay1 :text="product.items[0].text"></TextDisplay1></p>
 					</div>
 			</section>
-
 			<figure>
 				<img :src='product.items[1].img' alt />
 			</figure>
@@ -43,60 +73,31 @@
 					</div>
 			</section>
 
-
-			<!-- <figure>
-				<img src='https://unsplash.it/450/800?image=817' alt />
-			</figure>
-			<section>
-				<div>
-					<h2>I'm Kseso,<br/>
-					&ldquo;a #obCSServer&rdquo;</h2>
-					<p>Ramajero Argonauta, Enredique Amanuense de #CSS.</p>
-				</div>
-			</section>
-
 			<figure>
-				<img src='https://unsplash.it/450/800?image=948' alt />
+				<img :src='product.items[3].img' alt />
 			</figure>
 			<section>
-				<div>
-					<h2><a href='https://escss.blogspot.com'>&xi;sCSS Blog</a></h2>
-					<p>#impoCSSible inside EsCSS. A Spanish #CSS blog where the borders & limits of #CSS disappear.</p>
-				</div>
-			</section> -->
-
-			<!-- <figure>
-				<img src='https://unsplash.it/450/800?image=737' alt />
-			</figure>
-			<section>
-				<div>
-					<h2>#impoCSSible is nothing</h2>
-					<p>You don´t need Javascript or #CSS processors either for almost 100% of what you want to do.</p>
-				</div>
+					<div>
+						<h1>{{product.items[3].title}}</h1>
+						<p><TextDisplay1 :text="product.items[3].text"></TextDisplay1></p>
+					</div>
 			</section>
+		</article> -->
 
-			<figure>
-				<img src='https://unsplash.it/450/800?image=870' alt />
-			</figure>
-			<section>
-				<div>
-					<h2>Idea from E.Bouças´s <a href='https://codepen.io/eduardoboucas/full/qdaOWv/'>pen</a></h2>
-					<p>Without jQuery or Javascript, nor fixed position (bye IOs problems)</p>
-				</div>
-			</section>
+		<!-- <div>
+			<article v-for="(item, index) in product.items" :key="index">
+				<figure>
+					<img :src='item.img' alt />
+				</figure>
+				<section>
+					<p><TextDisplay1 :text="item.text"></TextDisplay1></p>
+				</section>
 
-			<figure>
-				<img src='https://unsplash.it/450/800?image=743' alt />
-			</figure>
-			<section>
-				<div>
-					<h2>Images from unsplash.it</h2>
-					<p>Because it´s the best for demos. Thanks, guys!</p>
-				</div>
-			</section> -->
+        </b-col>
+			</article>
+		</div> -->
 
 
-		</article>
   <!-- </div> -->
 </template>
 
@@ -131,21 +132,13 @@ export default{
 </script>
 
 <style scoped>
-
-*,*:before,*:after {box-sizing:inherit;margin:0; padding:0; border:0 none; position: relative;}
-html {
-	background: #000;
-	box-sizing:border-box;
-	font-family: 'Vollkorn', sans-serif;
-	font-size: 1rem;
-	color: #000;
-}
-img{
-	max-width: 100%;
-}
 @media screen and (min-width: 700px) {
+  article{
+    /* background-color:  #ccc; */
+    /* border: 5px red solid; */
+  }
 
-	body > article {
+	article {
 		display: flex;
 		flex-wrap: wrap;
 
@@ -159,7 +152,8 @@ img{
 		top: 0;
 		overflow: hidden;
 		box-shadow: 4px -4px 8px rgba(0,0,0,.4);
-			}
+
+	}
 	figure::after {
 		content: '';
 		position: absolute;
@@ -184,15 +178,169 @@ img{
 		margin: 0 0 10vh auto;
 		position: sticky;
 		top: 0;
-		/* // overflow: hidden; */
+		padding: 5vmin;
+		box-shadow: -4px -4px 8px rgba(0,0,0,.4);
+	}
+	figure:nth-of-type(1),
+	section:nth-of-type(1) {
+		width: 50%;
+	}
+
+
+
+	figure:nth-of-type(2n) {
+		margin: 0 0 10vh auto;
+		box-shadow: -4px -4px 8px rgba(0,0,0,.4);
+	}
+	section:nth-of-type(2n) {
+		margin: 0 auto 10vh 0;
+		box-shadow: 4px -4px 8px rgba(0,0,0,.4);
+		}
+	figure:last-of-type,
+	section:last-of-type {
+		margin-bottom: 0;
+	}
+	section::before {
+		background: inherit;
+		z-index: 1;
+		content: '';
+		position: absolute;
+		top: 50%;
+		left:0;
+		width: 7vmin;
+		height: 7vmin;
+		transform: translate(calc(-50% + 1px), -50%) rotate(-45deg);
+		clip-path: polygon(-15% -15%, 110% 0%, 0% 110%);
+		box-shadow: -4px -2px 8px rgba(0,0,0,.4);
+		border-radius: 1.5vmin 0 0 0;
+	}
+	section:nth-of-type(2n)::before {
+		left:auto;
+		right: 0;
+		transform: translate(calc(50% - 1px), -50%) rotate(-45deg) scale(-1);
+	}
+	section::after {
+		content: '';
+		position: absolute;
+		top: 5vmin;
+		right: 45%;
+		bottom: 5vmin;
+		left: 5vmin;
+		border: 2px dashed #fff;
+		outline: 1px solid #fff;
+		outline-offset: -5vmin;
+		backdrop-filter: invert(1);
+		pointer-events: none;
+	}
+	section:nth-of-type(2n):after {
+		right: 5vmin;
+		left: 45%;
+	}
+	figure img {
+		min-width: 100%;
+		min-height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+	section > div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 100%;
+		padding: 1rem;
+	}
+	h1,
+	h2 {
+		margin: 15% 0 auto;
+		font-size: calc(5vmin + 3vmax);
+		text-align: center;
+		font-weight: 700;
+		line-height: 1;
+		word-spacing: .5rem;
+	}
+	p {
+		text-align: right;
+		width: 100%;
+		font-family: "Cormorant", serif;
+		font-weight: 400;
+		font-style: italic;
+		font-size: calc(1.5vmin + 1.75vmax);
+		margin-bottom: 5%;
+	}
+	a {
+		color: transparent;
+		-webkit-text-stroke: 2px #212121;
+		text-decoration: none;
+    font-weight: 900;
+    letter-spacing: 2px;
+	}
+	a:hover, a:focus {
+		-webkit-text-stroke: 1px #999;
+	}
+}
+/* *,*:before,*:after {box-sizing:inherit;margin:0; padding:0; border:0 none; position: relative;} */
+/* html {
+	background: #000;
+	box-sizing:border-box;
+	font-family: 'Vollkorn', sans-serif;
+	font-size: 1rem;
+	color: #000;
+} */
+/* img{
+	max-width: 100%;
+} */
+/* @media screen and (min-width: 700px) {
+
+	body > article {
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+	figure {
+		background: #eee;
+		width: calc( 50% + 1px);
+		height: 100vh;
+		margin: 0 auto 10vh 0;
+		position: sticky;
+		top: 0;
+		overflow: hidden;
+		box-shadow: 4px -4px 8px rgba(0,0,0,.4);
+
+	}
+	figure::after {
+		content: '';
+		position: absolute;
+		top: 5vmin;
+		right: 5vmin;
+		bottom: 5vmin;
+		left: 45%;
+		border: 2px dashed #fff;
+		outline: 1px solid #fff;
+		outline-offset: -5vmin;
+		backdrop-filter: grayscale(1);
+		pointer-events: none;
+			}
+	figure:nth-of-type(2n)::after {
+		right: 45%;
+		left: 5vmin;
+	}
+	section {
+		background: #e5e5e5;
+		width: calc(50% + 1px);
+		height: 100vh;
+		margin: 0 0 10vh auto;
+		position: sticky;
+		top: 0;
 		padding: 5vmin;
 		box-shadow: -4px -4px 8px rgba(0,0,0,.4);
 			}
 	figure:nth-of-type(1),
 	section:nth-of-type(1) {
-		margin: 0 0 10vh 0;
 		width: 50%;
-			}
+	}
+
+
+
 	figure:nth-of-type(2n) {
 		margin: 0 0 10vh auto;
 		box-shadow: -4px -4px 8px rgba(0,0,0,.4);
@@ -242,7 +390,6 @@ img{
 		left: 45%;
 	}
 	figure img {
-		/* max-width: 100%; */
 		min-width: 100%;
 		min-height: 100%;
 		object-fit: cover;
@@ -283,6 +430,6 @@ img{
 	a:hover, a:focus {
 		-webkit-text-stroke: 1px #999;
 	}
-}
+} */
 
 </style>
