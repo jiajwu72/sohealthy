@@ -15,41 +15,55 @@
 const DATA = [
   {
   id: 'gdbzhhifhh',
-  title: '主题',
+  title: '燕窝生产流程',
   author: '',
   date: '2020',
-  desc: '视频介绍',
+  desc: '',
   link: 'https://www.youtube.com/watch?v=tr8JzTLlq30',
-  cover: '/images/印尼燕窝/视频封面/燕窝cover00.png',
-  cover2: 'https://img1.wxzxzj.com/vpc-example-cover-5cm-v.jpg',
-  cover3: 'https://img1.wxzxzj.com/vpc-example-cover-5cm-c.jpg',
-  source: '/videos/燕窝-工厂视频/1572398251550.mp4',
-  duration: '00:00:15'
+  cover: '/images/印尼燕窝/视频封面/燕窝生产流程.png',
+  // cover2: 'https://img1.wxzxzj.com/vpc-example-cover-5cm-v.jpg',
+  // cover3: 'https://img1.wxzxzj.com/vpc-example-cover-5cm-c.jpg',
+  source: '/videos/燕窝-工厂视频/燕窝生产流程.mp4',
+  duration: '00:06:28'
 }, {
   id: 'hfkhzwgnwx',
-  title: '主题',
+  title: '工厂严格高安全规格加工',
   author: '',
   date: '2020',
-  desc: "视频介绍",
+  desc: "",
   link: 'https://www.bilibili.com/bangumi/play/ss2546/?from=search&seid=5227685957756304310',
-  cover: '/images/印尼燕窝/视频封面/燕窝cover01.png',
-  cover2: 'https://img1.wxzxzj.com/vpc-example-cover-the-garden-v.jpg',
-  cover3: 'https://img1.wxzxzj.com/vpc-example-cover-the-garden-c.jpg',
-  source: '/videos/燕窝-工厂视频/1574291601277.mp4',
-  duration: '00:00:15'
+  cover: '/images/印尼燕窝/视频封面/工厂严格高安全规格加工.png',
+  // cover2: 'https://img1.wxzxzj.com/vpc-example-cover-the-garden-v.jpg',
+  // cover3: 'https://img1.wxzxzj.com/vpc-example-cover-the-garden-c.jpg',
+  source: '/videos/燕窝-工厂视频/工厂严格高安全规格加工.mp4',
+  duration: '00:02:01'
 },
 {
   id: 'jiytmghmyo',
-  title: '主题',
+  title: '燕窝包装',
   author: '',
   date: '2020',
-  desc: "视频介绍",
+  desc: "",
   link: 'https://www.bilibili.com/bangumi/play/ss12044/?from=search&seid=9670386519186098373',
-  cover: '/images/印尼燕窝/视频封面/燕窝cover02.png',
-  cover2: 'https://img1.wxzxzj.com/vpc-example-cover-your-name-v.jpg',
-  cover3: 'https://img1.wxzxzj.com/vpc-example-cover-your-name-c.png',
-  source: "/videos/燕窝-工厂视频/1574291618183.mp4",
-  duration: '00:00:10'
+  cover: '/images/印尼燕窝/视频封面/燕窝包装.png',
+  // cover2: 'https://img1.wxzxzj.com/vpc-example-cover-your-name-v.jpg',
+  // cover3: 'https://img1.wxzxzj.com/vpc-example-cover-your-name-c.png',
+  source: "/videos/燕窝-工厂视频/燕窝包装.mp4",
+  duration: '00:00:26'
+},
+
+{
+  id: 'szmnyobnap',
+  title: '燕窝的来源',
+  author: '',
+  date: '2020',
+  desc: "",
+  link: 'https://www.bilibili.com/bangumi/play/ss12044/?from=search&seid=9670386519186098373',
+  cover: '/images/印尼燕窝/视频封面/燕窝的来源.png',
+  // cover2: 'https://img1.wxzxzj.com/vpc-example-cover-your-name-v.jpg',
+  // cover3: 'https://img1.wxzxzj.com/vpc-example-cover-your-name-c.png',
+  source: "/videos/燕窝-工厂视频/燕窝的来源.mp4",
+  duration: '00:00:21'
 },
 
 // {

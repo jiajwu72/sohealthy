@@ -1,5 +1,26 @@
 // ------------- VARIABLES ------------- //
 // alert('porfolio1.js')
+var vids = $("video");
+$.each(vids, function(){
+       this.controls = false;
+       if (this.paused) {
+         console.log("pause");
+         this.play();
+       } else {
+         console.log("play");
+       }
+
+});
+//Loop though all Video tags and set Controls as false
+
+$("video").click(function() {
+  //console.log(this);
+  if (this.paused) {
+    this.play();
+  } else {
+    this.pause();
+  }
+});
 $(document).ready(function(){
   var isWebkit = navigator && navigator.userAgent.match(/webkit/i);
   var $root = $(isWebkit ? 'body' : 'html');

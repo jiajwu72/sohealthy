@@ -6,7 +6,6 @@
     hide-delimiter-background
     :show-arrows="false"
   >
-
     <v-carousel-item
       v-for="(slide, i) in slides"
       :key="i"
@@ -14,74 +13,10 @@
       class="bloc"
 
     >
-    <!-- <div id="firefly">
-      jzhd
-</div> -->
-      <div class="content">
-        <!-- <v-container>
-          <b-row>
-            <b-col class="col" >
-              <div class="vetical-middle">
-                <a href="">
-                  <v-btn class="ma-2" tile outlined >
-                    Homme&nbsp;
-                  </v-btn>
-                </a>
-                <v-icon x-large v-if="isMobile==false">
-                  mdi-chevron-left
-                </v-icon>
-                <br><br>
-                <a href="">
-                  <v-btn class="ma-2" tile outlined >
-                    Garçon
-                  </v-btn>
-                </a>
-                <v-icon x-large v-if="isMobile==false">
-                  mdi-chevron-left
-                </v-icon>
-              </div>
-            </b-col>
-
-            <b-col class="col" style="text-align:center;" >
-              <div class="vetical-middle">
-              <label class="bigTitle"> Collection </label><br>
-              Promo du jour<br><br>
-              <v-btn class="ma-2" tile outlined @click="redirige">
-                View
-              </v-btn>
-              </div>
-            </b-col>
-
-            <b-col class="col" >
-              <div class="vetical-middle" style="float:right;">
-
-                <v-icon x-large v-if="isMobile==false">
-                  mdi-chevron-right
-                </v-icon>
-                <a href="">
-                  <v-btn class="ma-2" tile outlined >
-                    Femme
-                  </v-btn>
-                </a>
-                <br><br>
-                <v-icon x-large v-if="isMobile==false">
-                  mdi-chevron-right
-                </v-icon>
-                <a href="">
-                  <v-btn class="ma-2" tile outlined >
-                    Fille
-                  </v-btn>
-                </a>
-              </div>
-            </b-col>
-          </b-row>
-        </v-container> -->
-        lkjsdqnfkbhs
-      </div>
-
     </v-carousel-item>
   </v-carousel>
-
+<!-- <div>
+</div> -->
 
 </template>
 
@@ -92,11 +27,13 @@
     data () {
       return {
         isMobile:false,
+        items:[],
       }
     },
     created() {
       this.isMobile=this.detectMob();
       console.log(this.isMobile)
+      this.items=["/images/environment/WechatIMG254.jpeg","/images/environment/WechatIMG255.jpeg","/images/environment/WechatIMG256.jpeg","/images/environment/WechatIMG257.jpeg","/images/environment/WechatIMG258.jpeg"]
     },
 
     methods: {
@@ -115,9 +52,7 @@
               return navigator.userAgent.match(toMatchItem);
           });
       },
-      redirige(){
-        window.location="/products?promo=true"
-      }
+
     }
 
   }
@@ -130,7 +65,7 @@
 <style scoped>
 @import '/css/normalize.css';
 @import '/css/style.css';
-/* Commun */
+/*
 .bloc{
   display: flex;
   height: 770px;
@@ -138,13 +73,10 @@
 }
 
 .content{
-  //border: 3px yellow solid;
   margin:0 auto;
   width: 100%;
   position: absolute;
   top: 50%;
-  //margin: -50px 0 0 0;
-  //line-height: 100px;
   transform: translateY(-50%);
 
 }
@@ -178,6 +110,11 @@ a{
 }
 .col{
   display: flex;
+} */
+
+.fullScreen{
+  padding: 0px;
+  margin: 0px;
 }
 
 

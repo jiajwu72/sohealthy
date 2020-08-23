@@ -11,11 +11,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/ynyanwo">印尼014燕窝</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/xlhaishen">希腊野生海参</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="bdhongjishen"> 冰岛红极参 </a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="bhyujiao"> 北海鱼胶 </a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="bdxueyujiao"> 冰岛鳕鱼胶 </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/燕窝">印尼014燕窝</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/海参">海参</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/bdhongjishen"> 冰岛红极参 </a></li> -->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/鱼胶"> 鱼胶 </a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="bdxueyujiao"> 冰岛鳕鱼胶 </a></li> -->
                     <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">鱼胶</a></li> -->
                     <!-- <li class="nav-item">
                       <span class="nav-link js-scroll-trigger list_parent">
@@ -30,8 +30,8 @@
                       </ul>
 
                     </li> -->
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">伊朗藏红花</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team"> 西班牙火腿 </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/伊朗藏红花">伊朗藏红花</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/火腿"> 西班牙火腿 </a></li>
                 </ul>
             </div>
       </div>

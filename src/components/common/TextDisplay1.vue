@@ -70,7 +70,7 @@ export default{
 
 #box p:hover {
     font-weight: bold;
-    font-size: 28px;
+    font-size: 22px;
 }
 
 

@@ -1,32 +1,43 @@
 <template>
 
   <article>
-    <figure>
+    <figure v-if="product.items[0]">
       <img :src='product.items[0].img' alt />
     </figure>
-    <section>
+    <section v-if="product.items[0]">
         <div>
           <h1>{{product.items[0].title}}</h1>
           <p><TextDisplay1 :text="product.items[0].text"></TextDisplay1></p>
         </div>
     </section>
-    <figure>
+
+    <figure v-if="product.items[1]">
       <img :src='product.items[1].img' alt />
     </figure>
-    <section>
+    <section v-if="product.items[1]">
         <div>
           <h1>{{product.items[1].title}}</h1>
           <p><TextDisplay1 :text="product.items[1].text"></TextDisplay1></p>
         </div>
     </section>
 
-    <figure>
+    <figure v-if="product.items[2]">
       <img :src='product.items[2].img' alt />
     </figure>
-    <section>
+    <section v-if="product.items[2]">
         <div>
           <h1>{{product.items[2].title}}</h1>
           <p><TextDisplay1 :text="product.items[2].text"></TextDisplay1></p>
+        </div>
+    </section>
+
+    <figure v-if="product.items[3]">
+      <img :src='product.items[3].img' alt />
+    </figure>
+    <section v-if="product.items[3]">
+        <div>
+          <h1>{{product.items[3].title}}</h1>
+          <p><TextDisplay1 :text="product.items[3].text"></TextDisplay1></p>
         </div>
     </section>
   </article>
@@ -34,7 +45,7 @@
   <!-- <div> -->
 
     <!-- <article>
-			<figure>
+			<figure v-if="product.items[0]">
 				<img :src='product.items[0].img' alt />
 			</figure>
 			<section>
@@ -237,10 +248,12 @@ export default{
 		left: 45%;
 	}
 	figure img {
-		min-width: 100%;
-		min-height: 100%;
-		object-fit: cover;
-		object-position: center;
+		/* min-width: 100%;
+		min-height: 100%; */
+		/* object-fit: cover; */
+		/* object-position: center; */
+    width: 100%;
+    height: 100%;
 	}
 	section > div {
 		display: flex;

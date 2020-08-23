@@ -2,27 +2,25 @@
   <div class="porfolio3">
     <div id="drag-container">
   <div id="spin-container">
-    <!-- Đổi <div> (theo video) thành <img> để dễ dàng thêm, sửa, xoá các hình -->
-    <!-- Muốn thêm ảnh thì chỉ cần thêm tag <img> hoặc <video> -->
-    <img src="https://25.media.tumblr.com/tumblr_mef6quv5pq1qi1a91o1_1280.jpg" alt="">
+
+    <!-- <img src="https://25.media.tumblr.com/tumblr_mef6quv5pq1qi1a91o1_1280.jpg" alt="">
     <img src="https://25.media.tumblr.com/tumblr_mef66y4dyg1qi1a91o1_1280.jpg" alt="">
     <img src="https://24.media.tumblr.com/tumblr_mef649hlGH1qi1a91o1_1280.jpg" alt="">
     <img src="https://24.media.tumblr.com/tumblr_mdji3d4gz01qi1a91o1_1280.jpg" alt="">
     <img src="https://images.pexels.com/photos/1382734/pexels-photo-1382734.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
     <img src="https://images.pexels.com/photos/1462636/pexels-photo-1462636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
 
-    <!-- Ví dụ thêm ảnh chứa link -->
+
     <a target="_blank" href="https://25.media.tumblr.com/tumblr_mef6quv5pq1qi1a91o1_1280.jpg">
       <img src="https://25.media.tumblr.com/tumblr_mef6quv5pq1qi1a91o1_1280.jpg" alt="">
-    </a>
+    </a> -->
 
-    <!-- Ví dụ thêm video  -->
+    <img v-for="(item, index) in imgs" :key="index" :src="item" alt="">
     <!-- <video controls autoplay="autoplay" loop>
       <source src="https://player.vimeo.com/external/322244668.sd.mp4?s=338c48ac2dfcb1d4c0689968b5baf94eee6ca0c1&profile_id=165&oauth2_token_id=57447761" type="video/mp4">
     </video> -->
 
-    <!-- Dòng chữ ở giữa vòng xoay -->
-    <p>3D Tiktok Carousel</p>
+    <p>{{title}}</p>
   </div>
   <div id="ground"></div>
 </div>
@@ -33,9 +31,10 @@
 
 <script>
 // import TextDisplay1 from '@/components/common/TextDisplay1';
+
 export default{
   name:"Porfolio3",
-  props: ['product'],
+  props: ['imgs','title'],
   components: {
     // TextDisplay1
   },
@@ -71,8 +70,8 @@ export default{
   } */
 }
 .porfolio3{
-  margin-top:180px;
-  margin-bottom:180px;
+  padding-top:50px;
+  margin-bottom:50px;
   max-width: 100%;
 }
 /* * {

@@ -1,16 +1,24 @@
 <template>
   <div>
-    <div v-for="(item, index) in product.items" :key="index">
+    <!-- <div v-for="(item, index) in product.items" :key="index">
       <div class="img"
             :data-img="item.img">
         <span class="multiline" style="margin-top:150px;">
           <div class="container">
             <span class="max">{{item.title}}</span>
-              <!-- {{item.text}} -->
               <TextDisplay1 :text="item.text"></TextDisplay1>
           </div>
         </span>
       </div>
+    </div> -->
+    <div class="img"
+          :data-img="product.img">
+      <span class="multiline" style="margin-top:150px;">
+        <div class="container">
+          <span class="max">{{product.title}}</span>
+          <!-- <TextDisplay1 :text="product.text"></TextDisplay1> -->
+        </div>
+      </span>
     </div>
   </div>
 </template>
@@ -18,12 +26,12 @@
 <script>
 // import $ from 'jquery'
 // import "../../../public/js/porfolio1.js"
-import TextDisplay1 from '@/components/common/TextDisplay1';
+// import TextDisplay1 from '@/components/common/TextDisplay1';
 export default{
   name:"Porfolio1",
   props: ['product'],
   components: {
-    TextDisplay1
+    // TextDisplay1
   },
   data() {
     return {
@@ -34,13 +42,13 @@ export default{
 
   },
   mounted() {
-    this.$loadScript("/js/porfolio1.js")
-    .then((res) => {
-      console.log("res",res);
-    })
-    .catch((e) => {
-      console.log("e:",e);
-    })
+    // this.$loadScript("/js/porfolio1.js")
+    // .then((res) => {
+    //   console.log("res",res);
+    // })
+    // .catch((e) => {
+    //   console.log("e:",e);
+    // })
   },
 
 }

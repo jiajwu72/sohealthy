@@ -1,30 +1,32 @@
 <template>
+  <div class="video_block">
+    <b-container class="bv-example-row main">
+      <b-row>
+        <b-col md="8">
+          <div id="vue-core-video-player-box" class="example-player">
+            <vue-core-video-player :cover="currentMovie.cover" :src="currentMovie.source"></vue-core-video-player>
+          </div>
+          <div class="movie-detail">
+            <h1 class="title">{{currentMovie.title}}</h1>
+            <div class="date">{{currentMovie.author}} - {{currentMovie.date}}</div>
+            <div class="desc">{{currentMovie.desc}} </div>
+          </div>
+        </b-col>
+        <b-col md="4" class="play-list">
+          <!-- <v-virtual-scroll
+            :item-height="50"
+            height="300"
+          > -->
+          <div id="scrollspy-nested" style="position:relative; height:400px; overflow-y:auto">
+            <h2>Play List</h2>
+            <MovieItem v-for="movie in movieList" :key="movie.cover" :item="movie"></MovieItem>
+          </div>
+          <!-- </v-virtual-scroll> -->
+        </b-col>
+      </b-row>
+    </b-container>
+  </div>
 
-  <b-container class="bv-example-row main">
-    <b-row>
-      <b-col md="8">
-        <div id="vue-core-video-player-box" class="example-player">
-          <vue-core-video-player :cover="currentMovie.cover" :src="currentMovie.source"></vue-core-video-player>
-        </div>
-        <div class="movie-detail">
-          <h1 class="title">{{currentMovie.title}}</h1>
-          <div class="date">{{currentMovie.author}} - {{currentMovie.date}}</div>
-          <div class="desc">{{currentMovie.desc}} </div>
-        </div>
-      </b-col>
-      <b-col md="4" class="play-list">
-        <!-- <v-virtual-scroll
-          :item-height="50"
-          height="300"
-        > -->
-        <div id="scrollspy-nested" style="position:relative; height:350px; overflow-y:auto">
-        <h2>Play List</h2>
-        <MovieItem v-for="movie in movieList" :key="movie.cover" :item="movie"></MovieItem>
-        </div>
-        <!-- </v-virtual-scroll> -->
-      </b-col>
-    </b-row>
-  </b-container>
 
 </template>
 
@@ -69,6 +71,17 @@ export default {
 </script>
 
 <style>
+  .video_block{
+    /* background-image: url("/images/燕窝/展示/10bdaa822c03d680ddf0c16e163b95ba.jpg"); */
+    background-image:url('https://www.cincojotas.fr/media/wysiwyg/3-_-DEHESA.jpg')
+  }
+  .main{
+    padding-top: 120px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
   .example-player {
     position: relative;
     height: 410px;
