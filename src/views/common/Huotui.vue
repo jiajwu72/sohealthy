@@ -108,6 +108,16 @@ export default{
   components: {
 
   },
+  metaInfo: {
+      title: '燕参堂',
+      // override the parent template and just use the above title only
+      titleTemplate: '%s | 西班牙火腿',
+      meta: [
+        { name: 'description', content: '销售西班牙5J火腿/Cebo de campo' },
+        { name: 'keywords', content: '西班牙火腿,5J火腿,Cebo de campo' },
+      ]
+
+  },
   data() {
     return {
       huotui:[],

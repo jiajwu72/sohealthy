@@ -34,6 +34,16 @@ export default{
     Porfolio1,
     // TextDisplay1,
   },
+  metaInfo: {
+      title: '燕参堂',
+      // override the parent template and just use the above title only
+      titleTemplate: '%s | 海参',
+      meta: [
+        { name: 'description', content: '销售冰岛红极参/希腊海参' },
+        { name: 'keywords', content: '冰岛红极参,希腊海参,海参' },
+      ]
+
+  },
   data() {
     return {
       product:{},

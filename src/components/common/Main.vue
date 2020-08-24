@@ -1,5 +1,5 @@
 <template>
-  <div class="video_block">
+  <div class="video_block" style="padding-top:120px;">
     <b-container class="bv-example-row main">
       <b-row>
         <b-col md="8">

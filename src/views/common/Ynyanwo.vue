@@ -1,5 +1,5 @@
 <template>
-<div class="top">
+<div class="top" >
   <div class="player-container">
     <!-- <vue-core-video-player src="/videos/燕窝-工厂视频/1572398251550.mp4"></vue-core-video-player> -->
     <VideoPlayer></VideoPlayer>

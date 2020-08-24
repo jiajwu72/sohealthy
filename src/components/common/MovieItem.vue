@@ -20,7 +20,7 @@ export default {
   name: 'MovieItem',
   methods: {
     changeMovie () {
-      window.location="/ynyanwo?vid="+ this.item.id
+      window.location="/燕窝?vid="+ this.item.id
       // if (location.search) {
       //   location.href = location.href.replace(/\?vid=([a-z]+)/, '?vid=' + this.item.id)
       // } else {

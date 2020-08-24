@@ -1,6 +1,6 @@
 <template>
 <div class="">
-  
+
   <Porfolio2 :product="product">
   </Porfolio2>
   <b-row>
@@ -26,6 +26,16 @@ export default{
     return {
       product:{},
     }
+  },
+  metaInfo: {
+      title: '燕参堂',
+      // override the parent template and just use the above title only
+      titleTemplate: '%s | 鱼胶',
+      meta: [
+        { name: 'description', content: '鱼胶' },
+        { name: 'keywords', content: '北海鱼胶,冰岛鳕鱼胶' },
+      ]
+
   },
   created() {
     const t1="北海鱼胶";

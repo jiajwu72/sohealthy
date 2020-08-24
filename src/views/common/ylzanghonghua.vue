@@ -26,6 +26,16 @@ export default{
       product:{},
     }
   },
+  metaInfo: {
+      title: '燕参堂',
+      // override the parent template and just use the above title only
+      titleTemplate: '%s | 伊朗藏红花',
+      meta: [
+        { name: 'description', content: '伊朗藏红花' },
+        { name: 'keywords', content: '伊朗藏红花' },
+      ]
+
+  },
   created() {
     const t1="伊朗藏红花";
     const txt1="伊朗有五宝——石油、地毯、黑鱼子酱、开心果和藏红花。伊朗是藏红花的最大产地，世界80%的藏红花都产自伊朗。虽然在国际市场上藏红花是名贵的药材，但伊朗人却并不看重它的药效，而是把它当成普通的调料，藏红花那诱人的黄色经常出现在伊朗普通人家的米饭、糕点上。"
