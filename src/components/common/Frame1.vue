@@ -34,7 +34,7 @@
     margin-top:80px;
   }
   .container{
-    padding: 12px;
+    /* padding: 12px; */
   }
 }
 </style>

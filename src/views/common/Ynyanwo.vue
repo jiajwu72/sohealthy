@@ -95,7 +95,7 @@
               height="250"
               :src="dunzhu[id].src"
             ></v-img> -->
-            <Porfolio3 :imgs="imgs" title="泡发实景图"></Porfolio3>
+            <Porfolio3 v-if="isMobile==false" :imgs="imgs" title="泡发实景图"></Porfolio3>
             <v-card-text>
               <span>{{dunzhu[id].desc}}</span>
             </v-card-text>
