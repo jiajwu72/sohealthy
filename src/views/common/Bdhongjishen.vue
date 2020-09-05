@@ -11,12 +11,71 @@
         </div>
       </b-col>
       <b-col md="6" class="fullSreen">
-        <!-- <video width="100%" autoplay muted>
-          <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
-        </video> -->
         <video height="420px" width="100%" autoplay muted loop>
           <source :src="item.video" type="video/mp4">
         </video>
+      </b-col>
+    </b-row>
+  </div>
+  <div class="text_pf_color" style="text-align:center;background-color:rgb(223, 237, 253);padding:20px;">
+    <h1>燕参堂教您发制海参</h1>
+    <b-row style="margin:20px;">
+      <b-col md="4">
+        <v-img
+          src="/images/海参/1.png"
+          @click="overlay = !overlay"
+        ></v-img>
+        <h4>浸泡</h4>
+        <p>将海参洗净放入冰箱浸泡72小时，每天换水一次。</p>
+      </b-col>
+      <b-col md="4">
+        <v-img
+          src="/images/海参/2.png"
+          @click="overlay = !overlay"
+        ></v-img>
+        <h4>去沙嘴</h4>
+        <p>将海参剖开，扣掉沙嘴清理沙质，把海参筋剪成2，3段。</p>
+      </b-col>
+      <b-col md="4">
+        <v-img
+          src="/images/海参/3.png"
+          @click="overlay = !overlay"
+        ></v-img>
+        <h4>水煮</h4>
+        <p>上锅加盖煮沸，再改用文火煮30-60分钟。</p>
+      </b-col>
+      <b-col md="4">
+        <v-img
+          src="/images/海参/4.png"
+          @click="overlay = !overlay"
+        ></v-img>
+        <h4>冷却</h4>
+        <p>闷在锅内，自然冷却后换水，放入冰箱继续泡一夜。</p>
+      </b-col>
+      <b-col md="4">
+        <v-img
+          src="/images/海参/5.png"
+          @click="overlay = !overlay"
+        ></v-img>
+        <h4>水煮</h4>
+        <p>把软的海参继续水煮，用筷子夹起来俩边自然下垂就可以了。</p>
+      </b-col>
+      <b-col md="4">
+        <v-img
+          src="/images/海参/6.png"
+          @click="overlay = !overlay"
+        ></v-img>
+        <h4>冷藏</h4>
+        <p>换凉水放入冰箱低温再泡3天，泡发完成，每天换水可保存2，3周，也可以单独冷藏保存。</p>
+      </b-col>
+
+    </b-row>
+    <b-row style="margin:80px;">
+      <b-col md="2" style="box-shadow: 10px 5px 5px #5d6d7e;">
+        <h3>小贴士</h3>
+      </b-col>
+      <b-col md="10" style="box-shadow: 10px 5px 5px #5d6d7e;">
+        <p>海参遇油污即化，请确保泡发或制煮器皿无油。海参因个体差异极小，在泡发时间上，可适度调整。</p>
       </b-col>
     </b-row>
   </div>
@@ -125,6 +184,10 @@ export default{
   color: #292c2f;
   transition-duration:.5s;
   font-size: 18px;
+}
+
+.text_pf_color{
+  color:rgb(65,99,137)
 }
 
 </style>
