@@ -17,10 +17,10 @@
       </b-col>
     </b-row>
   </div>
-  <div class="text_pf_color" style="text-align:center;background-color:rgb(223, 237, 253);padding:20px;">
-    <b-container>
+  <div class="text_pf_color bg_pf_color" style="text-align:center;padding:20px;">
+    <b-container class="bg_pf_color2">
     <h1>燕参堂教您发制海参</h1>
-    <b-row style="margin:20px;">
+    <b-row class="bg_pf_color" style="margin:20px;">
       <b-col md="4" class="little_overplay">
         <v-img
           src="/images/海参/1.png"
@@ -72,10 +72,10 @@
 
     </b-row>
     <b-row style="margin:80px;">
-      <b-col md="2" style="box-shadow: 10px 5px 5px #5d6d7e;">
+      <b-col class="bg_pf_color" md="2" style="box-shadow: 10px 5px 5px #5d6d7e;">
         <h3>小贴士</h3>
       </b-col>
-      <b-col md="10" style="box-shadow: 10px 5px 5px #5d6d7e;">
+      <b-col class="bg_pf_color" md="10" style="box-shadow: 10px 5px 5px #5d6d7e;">
         <p>海参遇油污即化，请确保泡发或制煮器皿无油。海参因个体差异极小，在泡发时间上，可适度调整。</p>
       </b-col>
     </b-row>
@@ -195,6 +195,14 @@ export default{
 .little_overplay{
   padding-left:75px;
   padding-right:75px;
+}
+
+.bg_pf_color{
+  background-color:rgb(159, 194, 236);
+}
+
+.bg_pf_color2{
+  background-color:rgb(223, 237, 253);
 }
 
 </style>
