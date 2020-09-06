@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="font_sp">
   <div class="" v-for="(item, index) in product.items" :key="index">
     <Porfolio1 :product="item">
     </Porfolio1>
@@ -203,6 +203,15 @@ export default{
 
 .bg_pf_color2{
   background-color:rgb(223, 237, 253);
+}
+
+@font-face {
+  font-family: 'xingliti';
+  src: url(/fonts/ZCOOLxingliti-Regular.ttf);
+}
+
+.font_sp{
+  font-family: 'xingliti', Arial, Helvetica, san-serif;
 }
 
 </style>
