@@ -19,7 +19,7 @@
       <div class="container">
         <b-row>
           <b-col md="2">
-            <b-img src="/images/environment/scan_shop.jpg" fluid alt="Responsive image"></b-img>
+            <b-img src="/images/environment/WechatIMG80.jpeg" fluid alt="Responsive image"></b-img>
           </b-col>
           <b-col md="8" style="text-align:left;">
             <h4>
