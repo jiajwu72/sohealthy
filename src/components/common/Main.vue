@@ -18,7 +18,7 @@
             height="300"
           > -->
           <div id="scrollspy-nested" style="position:relative; height:400px; overflow-y:auto">
-            <h2>Play List</h2>
+            <h2>播放列表</h2>
             <MovieItem v-for="movie in movieList" :key="movie.cover" :item="movie"></MovieItem>
           </div>
           <!-- </v-virtual-scroll> -->

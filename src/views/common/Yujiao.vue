@@ -3,7 +3,7 @@
 
   <Porfolio2 :product="product">
   </Porfolio2>
-  <b-row>
+  <!-- <b-row>
     <b-col md="6">
 
     </b-col>
@@ -11,7 +11,32 @@
     <b-col md="6">
 
     </b-col>
-  </b-row>
+  </b-row> -->
+
+  <!-- <b-container>
+    <b-card
+      header="鱼胶展"
+      header-tag="header">
+      <b-card-text>
+        <div id="scrollspy-nested" style="position:relative; height:500px; overflow-y:auto">
+        <b-row>
+          <b-col md="4" v-for="(item, index) in imgsG" :key="index">
+            <b-card
+              class="mx-auto card_personel"
+              max-width="344"
+            >
+              <v-img
+                :src="item"
+                height="200px"
+                @click="overlay = !overlay"
+              ></v-img>
+            </b-card>
+          </b-col>
+        </b-row>
+        </div>
+      </b-card-text>
+    </b-card>
+  </b-container> -->
 </div>
 </template>
 
