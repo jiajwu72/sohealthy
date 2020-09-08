@@ -17,17 +17,13 @@
       </b-col>
     </b-row>
   </div>
-  <div class="text_pf_color bg_pf_color" style="text-align:center;padding:20px;">
-    <b-container class="bg_pf_color2 shadow">
+
+  <b-row class="text_pf_color bg_pf_color">
+  <b-col md="6">
+  <div >
+    <!-- <b-container class="bg_pf_color2 shadow"> -->
+    <div class="bg_pf_color2 shadow" style="text-align:center;padding:20px;">
     <h1>
-      <!-- <v-btn src="/images/海参/WechatIMG2.png"></v-btn> -->
-      <!-- <span style="">
-        <v-img
-        src="/images/海参/WechatIMG2.png"
-        @click="overlay = !overlay"
-        style="width:80px;display: inline-block;transform:translateY(12px);"
-        ></v-img>
-      </span> -->
       燕参堂教您发制希腊野生海参</h1>
       www.SoHealthy.eu
     <b-row class="bg_pf_color shadow" style="margin:20px;">
@@ -53,7 +49,7 @@
           src="/images/海参/3.png"
           @click="overlay = !overlay"
         ></v-img>
-        <h4><div class="cercle bg_pf_color2 shadow">3</div>水煮</h4>
+        <h4 style="display:inline;"><div class="cercle bg_pf_color2 shadow">3</div>水煮</h4>（第一次）
         <p>上锅加盖煮沸，再改用文火煮30-60分钟。</p>
       </b-col>
       <b-col md="4" sm="6" xs="6" class="little_overplay">
@@ -69,7 +65,7 @@
           src="/images/海参/5.png"
           @click="overlay = !overlay"
         ></v-img>
-        <h4><div class="cercle bg_pf_color2 shadow">5</div>水煮</h4>
+        <h4 style="display:inline;"><div class="cercle bg_pf_color2 shadow">5</div>水煮</h4>(第二次)
         <p>把软的海参继续水煮，用筷子夹起来俩边自然下垂就可以了。</p>
       </b-col>
       <b-col md="4" sm="6" xs="6" class="little_overplay">
@@ -82,17 +78,11 @@
       </b-col>
 
     </b-row>
-    <!-- <b-row style="margin:80px;">
-      <b-col class="bg_pf_color" md="2" style="box-shadow: 10px 5px 5px #5d6d7e;">
-        <h3>小贴士</h3>
-      </b-col>
-      <b-col class="bg_pf_color" md="10" style="box-shadow: 10px 5px 5px #5d6d7e;">
-        <p>海参遇油污即化，请确保泡发或制煮器皿无油。海参因个体差异极小，在泡发时间上，可适度调整。</p>
-      </b-col>
-    </b-row> -->
-    </b-container>
-    <b-container>
-      <b-row >
+    </div>
+    <!-- </b-container> -->
+    <!-- <b-container> -->
+    <div style="padding:20px;">
+      <b-row>
         <b-col class="bg_pf_color2 shadow" md="2" style="border-radius: 10% 0% 0% 10%;">
           <h3>小贴士</h3>
         </b-col>
@@ -101,9 +91,19 @@
           <p>海参遇油污即化，请确保泡发或制煮器皿无油。海参因个体差异极小，在泡发时间上，可适度调整。</p>
         </b-col>
       </b-row>
-    </b-container>
+    </div>
+    <!-- </b-container> -->
   </div>
-
+  </b-col>
+  <b-col md="6" style="display:flex;text-align:center;">
+    <div class="bg_pf_color2 shadow" style="margin:0 auto;width:75%;padding:20px;">
+      <h1>燕参堂海参泡发教程视频</h1>
+      <video height="auto" width="100%"  >
+        <source src="/images/海参/aleo 2020-09-09 16.59.05.mp4" type="video/mp4">
+      </video>
+    </div>
+  </b-col>
+  </b-row>
 </div>
 </template>
 
@@ -215,10 +215,16 @@ export default{
 }
 
 .little_overplay{
-  padding-left:75px;
-  padding-right:75px;
+  padding-left:25px;
+  padding-right:25px;
 }
 
+@media screen and (max-width: 700px) {
+  .little_overplay{
+    padding-left:75px;
+    padding-right:75px;
+  }
+}
 .bg_pf_color{
   background-color:rgb(207, 222, 244);
 }
