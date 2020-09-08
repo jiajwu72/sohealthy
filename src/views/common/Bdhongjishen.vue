@@ -19,7 +19,17 @@
   </div>
   <div class="text_pf_color bg_pf_color" style="text-align:center;padding:20px;">
     <b-container class="bg_pf_color2 shadow">
-    <h1>燕参堂教您发制海参</h1>
+    <h1>
+      <!-- <v-btn src="/images/海参/WechatIMG2.png"></v-btn> -->
+      <!-- <span style="">
+        <v-img
+        src="/images/海参/WechatIMG2.png"
+        @click="overlay = !overlay"
+        style="width:80px;display: inline-block;transform:translateY(12px);"
+        ></v-img>
+      </span> -->
+      燕参堂教您发制希腊野生海参</h1>
+      www.SoHealthy.eu
     <b-row class="bg_pf_color shadow" style="margin:20px;">
       <b-col md="4" sm="6" xs="6" class="little_overplay">
         <v-img
@@ -27,7 +37,7 @@
           @click="overlay = !overlay"
         ></v-img>
 
-        <h4> <div class="cercle bg_pf_color2">1</div> 浸泡</h4>
+        <h4> <div class="cercle bg_pf_color2 shadow">1</div> 浸泡</h4>
         <p>将海参洗净放入冰箱浸泡72小时，每天换水一次。</p>
       </b-col>
       <b-col md="4" sm="6" xs="6" class="little_overplay">
@@ -35,7 +45,7 @@
           src="/images/海参/2.png"
           @click="overlay = !overlay"
         ></v-img>
-        <h4><div class="cercle bg_pf_color2">2</div>去沙嘴</h4>
+        <h4><div class="cercle bg_pf_color2 shadow">2</div>去沙嘴</h4>
         <p>将海参剖开，扣掉沙嘴清理沙质，把海参筋剪成2，3段。</p>
       </b-col>
       <b-col md="4" sm="6" xs="6" class="little_overplay">
@@ -43,7 +53,7 @@
           src="/images/海参/3.png"
           @click="overlay = !overlay"
         ></v-img>
-        <h4><div class="cercle bg_pf_color2">3</div>水煮</h4>
+        <h4><div class="cercle bg_pf_color2 shadow">3</div>水煮</h4>
         <p>上锅加盖煮沸，再改用文火煮30-60分钟。</p>
       </b-col>
       <b-col md="4" sm="6" xs="6" class="little_overplay">
@@ -51,7 +61,7 @@
           src="/images/海参/4.png"
           @click="overlay = !overlay"
         ></v-img>
-        <h4><div class="cercle bg_pf_color2">4</div>冷却</h4>
+        <h4><div class="cercle bg_pf_color2 shadow">4</div>冷却</h4>
         <p>闷在锅内，自然冷却后换水，放入冰箱继续泡一夜。</p>
       </b-col>
       <b-col md="4" sm="6" xs="6" class="little_overplay">
@@ -59,7 +69,7 @@
           src="/images/海参/5.png"
           @click="overlay = !overlay"
         ></v-img>
-        <h4><div class="cercle bg_pf_color2">5</div>水煮</h4>
+        <h4><div class="cercle bg_pf_color2 shadow">5</div>水煮</h4>
         <p>把软的海参继续水煮，用筷子夹起来俩边自然下垂就可以了。</p>
       </b-col>
       <b-col md="4" sm="6" xs="6" class="little_overplay">
@@ -67,7 +77,7 @@
           src="/images/海参/6.png"
           @click="overlay = !overlay"
         ></v-img>
-        <h4><div class="cercle bg_pf_color2">6</div>冷藏</h4>
+        <h4><div class="cercle bg_pf_color2 shadow">6</div>冷藏</h4>
         <p>换凉水放入冰箱低温再泡3天，泡发完成，每天换水可保存2，3周，也可以单独冷藏保存。</p>
       </b-col>
 
@@ -83,7 +93,7 @@
     </b-container>
     <b-container>
       <b-row >
-        <b-col class="bg_pf_color2 shadow" md="2">
+        <b-col class="bg_pf_color2 shadow" md="2" style="border-radius: 10% 0% 0% 10%;">
           <h3>小贴士</h3>
         </b-col>
         <b-col md="1"></b-col>
