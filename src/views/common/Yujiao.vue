@@ -83,7 +83,7 @@ export default{
         {
           title:t1,
           text:txt1,
-          img:"/images/鱼胶/北海鱼胶/IMG_20200211_183115.jpg",
+          img:"/images/鱼胶/北海鱼胶/_DSC0591.JPG",
           video:"/images/鱼胶/北海鱼胶/1592951088253.mp4",
         },
         {

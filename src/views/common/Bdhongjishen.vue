@@ -219,7 +219,8 @@ export default{
 }
 
 .text_pf_color{
-  color:rgb(65,99,137)
+  /* color:rgb(65,99,137) */
+  color: white;
 }
 
 .little_overplay{
@@ -233,12 +234,14 @@ export default{
     padding-right:75px;
   }
 }
-.bg_pf_color{
-  background-color:rgb(207, 222, 244);
+.bg_pf_color2{
+  /* background-color:rgb(45, 43, 53); */
+  background-color:rgba(102, 102, 102,0.3);;
 }
 
-.bg_pf_color2{
-  background-color:rgb(223, 237, 253);
+.bg_pf_color{
+  /* background-color:rgb(90, 86, 106); */
+  background-color:rgb(45, 43, 53);
 }
 
 @font-face {
