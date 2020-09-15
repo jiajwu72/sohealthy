@@ -232,7 +232,7 @@
         show:false,
         slidesItem:[
           {
-            src: '/images/environment/magasin.jpg',
+            src: '/images/environment/_DSC0536.JPG',
           },
 
 

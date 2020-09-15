@@ -17,32 +17,36 @@
 
     <v-footer class="footer">
       <div class="container">
-        <b-row>
-          <b-col md="2">
-            <b-img src="/images/environment/WechatIMG80.jpeg" fluid alt="Responsive image"></b-img>
-          </b-col>
-          <b-col md="8" style="text-align:left;">
-            <h4>
+        <v-row>
+          <v-col md="2" sm="2">
+            <b-img src="/images/environment/WechatIMG80.jpeg" fluid alt="Responsive image" style="height:100px;width:auto;"></b-img>
+          </v-col>
+          <v-col md="8" sm="8" style="text-align:left;">
+            <h6 style="color:white;line-height:25px;">
               11 rue de la présentation <br>
               75011 PARIS 11 <br>
               Métro Belleville ligne 11 2 <br>
               tél : +337 69 88 20 88
-            </h4>
-
-          </b-col>
-          <!-- <b-col md="2">
-            <b-btn
-                  color="pink"
-
-                >
-
-                  <v-icon>mdi-arrow-collapse-up</v-icon>
-            </b-btn>
-
-          </b-col> -->
-        </b-row>
+            </h6>
+          </v-col>
+        </v-row>
       </div>
     </v-footer>
+    <!-- <div class="container">
+      <v-row>
+        <v-col md="2" sm="2">
+          <b-img src="/images/environment/WechatIMG80.jpeg" fluid alt="Responsive image" style="height:100px;width:auto;"></b-img>
+        </v-col>
+        <v-col md="8" sm="8" style="text-align:left;">
+          <h6 style="color:white;line-height:25px;">
+            11 rue de la présentation <br>
+            75011 PARIS 11 <br>
+            Métro Belleville ligne 11 2 <br>
+            tél : +337 69 88 20 88
+          </h6>
+        </v-col>
+      </v-row>
+    </div> -->
   </div>
 
   <!-- </v-footer> -->
@@ -70,17 +74,29 @@ export default{
 </script>
 
 <style scoped>
-.footer{
-  /* position: fixed;
-  margin-top: 50px; */
-}
+
 
 .footer{
   /* position: fixed; */
-  background-color: white;
+  /* background-color: white; */
   /* bottom: 0; */
   /* left: 0; */
   width: 100%;
+  height: 160px;
+  background-image: url(/images/environment/_DSC0506.JPG);
+  background-size: cover;
+  background-position: 40% 20%;
+  /* filter: blur(4px); */
+  /* position: relative;
+  left:0;
+  bottom: 0; */
+}
+
+h6{
+  /* position: fixed; */
+    /* left:0;
+    top: 0; */
+  z-index: 99;
 }
 
 section#contact {

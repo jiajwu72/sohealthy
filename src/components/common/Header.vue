@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top font-color" id="mainNav" style="background-color:rgba(45,43,54,0.7);height:120px;">
       <div class="container">
         <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="images/environment/651596877739_.pic.jpg" alt="" /></a> -->
             <a class="navbar-brand js-scroll-trigger" href="/"><img src="images/environment/logo.jpg" alt="" /></a>
@@ -117,5 +117,8 @@ li{
 /* .list{
   display: none;
 } */
-
+/* .font-color{
+  border:5px red solid;
+  background-color:rgba(45,43,54,0.5);
+} */
 </style>

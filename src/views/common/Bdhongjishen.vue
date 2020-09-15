@@ -1,21 +1,29 @@
 <template>
 <div class="font_sp">
+  <!-- <div class="font-black">
+
+  </div> -->
+
+  <div>
   <div class="" v-for="(item, index) in product.items" :key="index">
     <Porfolio1 :product="item">
     </Porfolio1>
-    <b-row class="fullSreen">
-      <b-col md="6" class="text_block fullSreen">
+    <b-row class="fullSreen" style="background-color:rgb(102,102,102);">
+      <b-col md="9"  style="">
         <!-- <TextDisplay1 :text="item.text"></TextDisplay1> -->
-        <div id="scrollspy-nested" style="position:relative; height:100%; overflow-y:auto">
-          {{item.text}}
+        <div class="text_block fullSreen" style="background-color:rgb(45,43,54);">
+          <p id="scrollspy-nested" style="position:relative; height:100%; overflow-y:auto;color:white;">
+            {{item.text}}
+          </p>
         </div>
       </b-col>
-      <b-col md="6" class="fullSreen">
-        <video height="420px" width="100%" autoplay muted loop>
+      <b-col md="3" class="fullSreen video-font" >
+        <video height="420px" width="100%" autoplay muted loop style="margin-top:15px;margin-bottom:15px;">
           <source :src="item.video" type="video/mp4">
         </video>
       </b-col>
     </b-row>
+  </div>
   </div>
 
   <b-row class="text_pf_color bg_pf_color">
@@ -160,13 +168,13 @@ export default{
         {
           title:t1,
           text:txt1,
-          img:"images/海参/冰岛红极参/IMG_20170509_015634.jpg",
+          img:"images/environment/_DSC0538的副本.JPG",
           video:"images/海参/冰岛红极参/1583275494958.mp4"
         },
         {
           title:t2,
           text:txt2,
-          img:"/images/希腊海参/希腊大号刺参/03.jpg",
+          img:"/images/environment/_DSC0490.JPG",
           video:"images/海参/希腊海参/1586896135418.mp4",
         },
         // {
@@ -239,7 +247,7 @@ export default{
 }
 
 .font_sp{
-  font-family: 'xingliti', Arial, Helvetica, san-serif;
+  //font-family: 'xingliti', Arial, Helvetica, san-serif;
 }
 
 .shadow{
@@ -254,5 +262,15 @@ export default{
   width: 40px;
   height: 40px;
 }
+.font-black{
+  background-color: black;
+  height: 60px;
+  /* margin-bottom: px;  */
+}
 
+
+
+.video-font{
+  background-image: url(/images/environment/131.png);
+}
 </style>
