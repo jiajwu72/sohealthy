@@ -31,7 +31,7 @@
   .content{
     /* margin-top:58px;
     background-color: #faf9f8; */
-    margin-top:80px;
+    /* margin-top:80px; */
   }
   .container{
     /* padding: 12px; */

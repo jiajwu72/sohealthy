@@ -88,14 +88,14 @@ export default{
 
 	}
 	figure {
-		background: #eee;
+		/* background: #eee; */
 		width: calc( 50% + 1px);
 		height: 100vh;
 		margin: 0 auto 10vh 0;
 		position: sticky;
 		top: 0;
 		overflow: hidden;
-		box-shadow: 4px -4px 8px rgba(0,0,0,.4);
+		/* box-shadow: 4px -4px 8px rgba(0,0,0,.4); */
 
 	}
 	figure::after {
@@ -105,12 +105,12 @@ export default{
 		right: 5vmin;
 		bottom: 5vmin;
 		left: 45%;
-		border: 2px dashed #fff;
-		outline: 1px solid #fff;
+		/* border: 2px dashed #fff; */
+		/* outline: 1px solid #fff; */
 		outline-offset: -5vmin;
-		backdrop-filter: grayscale(1);
+		/* backdrop-filter: grayscale(1); */
 		pointer-events: none;
-			}
+	}
 	figure:nth-of-type(2n)::after {
 		right: 45%;
 		left: 5vmin;
@@ -170,10 +170,10 @@ export default{
 		right: 45%;
 		bottom: 5vmin;
 		left: 5vmin;
-		border: 2px dashed #fff;
-		outline: 1px solid #fff;
+		/* border: 2px dashed #fff;
+		outline: 1px solid #fff; */
 		outline-offset: -5vmin;
-		backdrop-filter: invert(1);
+		/* backdrop-filter: invert(1); */
 		pointer-events: none;
 	}
 	section:nth-of-type(2n):after {

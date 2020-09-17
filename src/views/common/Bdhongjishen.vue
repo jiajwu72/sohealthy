@@ -1,11 +1,11 @@
 <template>
-<div class="font_sp">
+<div class="">
   <!-- <div class="font-black">
 
   </div> -->
 
-  <div>
-  <div class="" v-for="(item, index) in product.items" :key="index">
+  <div style="">
+  <div class="" v-for="(item, index) in product.items" :key="index" >
     <Porfolio1 :product="item">
     </Porfolio1>
     <b-row class="fullSreen" style="background-color:rgb(102,102,102);">
@@ -17,8 +17,12 @@
           </p>
         </div>
       </b-col>
-      <b-col md="3" class="fullSreen video-font" >
-        <video height="420px" width="100%" autoplay muted loop style="margin-top:15px;margin-bottom:15px;">
+      <b-col md="3" class="fullSreen video_font" >
+        <!-- <img src="/images/environment/131.png" alt="" style="width:100%;border:1px red solid;" usemap="#workmap"> -->
+        <!-- <map name="workmap">
+          <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+        </map> -->
+        <video height="420px" width="100%" autoplay muted loop style="">
           <source :src="item.video" type="video/mp4">
         </video>
       </b-col>
@@ -149,11 +153,11 @@ export default{
       console.log("e:",e);
     })
     const t1="";
-    const txt1="红极参是一种生长于靠近北极圈的冰岛共和国深海水域的野生海参，参龄10年以上。红极参体壁总氨基酸、药效氨基酸和鲜味氨基酸总量均为最高，脂肪量少，含有丰富的海参皂甙，肉质呈金黄色，体大肉厚，为天然补钙食品。1 冰岛红极参被称为“长寿之神”红极参含有50多种天然营养成分，其中酸性粘多糖和软骨素具有延缓衰老的特效，能快速修复体内受损的细胞，延长寿命，增强器官的功能。<br>2 冰岛红极参被称为“亚健康克星”红极参含有丰富的海参皂甙、海参多糖，能提供给大脑丰富而均衡的营养促使大脑智商提高，记忆力增强，消除大脑疲劳。3 冰岛红极参被称为“抗癌灵丹”红极参具有的很强的细胞毒性及鱼毒，能抑制癌细胞生长，有提高人体免疫力和抗癌杀菌作用，抗癌能力强。4 冰岛红极参被称为“补血佳品”红极参含有微量元素铁和钒，使机体更加充分利用铁元素，刺激造血机制，达到补血益气的功效。5 冰岛红极参被称为“美容之宝”红极参富含的精氨酸，粘多糖对保持皮肤水分、增强皮肤弹性，有神奇的效果，其胶原蛋白可使肌肤保持光滑及富有弹性，延缓机体衰老。6 冰岛红极参被称为“血管清道夫”红极参所含的海参多糖是防止动脉粥硬化、修复陈旧性心机梗塞最有效的物质。它具有清洗血管、抑制栓塞形成、降低血脂作用，对脑血栓和缺血性心脏病有明显的改善。"
+    const txt1="希腊刺参，产自希腊北方萨索斯岛（Thasos Island）南端海滩，被称作是环保达标的“蓝旗海域”的地方。该区域水质纯净、温度低、盐分适中。希腊人不食用海参，加上该海域人迹罕至，野生欧然海参物产丰富，符合海参天然慢生长的特性。海参鉴别 首先要了解产地：生长在高温海域的海参，海参长得很快但营养成分不高；而极寒海域，很少有海参生长。所以最优质的海参，都是生长在北纬39~45°之间的温带、亚寒带交界海域。希腊附近多个海域都有海参生长，都在北纬39度以北区域的，希腊海参闻起来有淡淡的海水的咸味。"
 
 
     const t2="";
-    const txt2="希腊刺参，产自希腊北方萨索斯岛（Thasos Island）南端海滩，被称作是环保达标的“蓝旗海域”的地方。该区域水质纯净、温度低、盐分适中。希腊人不食用海参，加上该海域人迹罕至，野生欧然海参物产丰富，符合海参天然慢生长的特性。海参鉴别 首先要了解产地：生长在高温海域的海参，海参长得很快但营养成分不高；而极寒海域，很少有海参生长。所以最优质的海参，都是生长在北纬39~45°之间的温带、亚寒带交界海域。希腊附近多个海域都有海参生长，都在北纬39度以北区域的,，希腊海参闻起来有淡淡的海水的咸味，泡发时间：希腊野生干刺海参，如果是九到十成干，在泡发的第一步，往往需要浸泡24小时。如果是人工养殖的，1小时足矣。这时因为野生海参肉质更紧的原因。涨发比率：希腊野生海参，泡发后涨发率至少是2倍以上，部分可以达到3倍以上。试试口味：优质海参泡发食用，壁厚半透明，咬起来感觉到弹牙，在不添加佐料的时候，几乎是无味的。"
+    const txt2="泡发时间：希腊野生干刺海参，如果是九到十成干，在泡发的第一步，往往需要浸泡24小时。如果是人工养殖的，1小时足矣。这时因为野生海参肉质更紧的原因。涨发比率：希腊野生海参，泡发后涨发率至少是2倍以上，部分可以达到3倍以上。试试口味：优质海参泡发食用，壁厚半透明，咬起来感觉到弹牙，在不添加佐料的时候，几乎是无味的。"
 
     // const t3="";
     // const txt3="“红极参”就是在这优良的水域中生长的一种高档海参。由于红极参产量少，生长期长，冰岛政府以前限量捕捞，而捕捞的少量红极参也只供给香港和新加坡的高档餐厅，或者用于提炼有效成分生产奢侈品级的美容品，保健品和减肥食品及一些药品，极少进入国内。";
@@ -204,7 +208,7 @@ export default{
 
 .text_block{
   background-color: #deebef;
-  box-shadow: 10px 5px 5px #5d6d7e;
+  box-shadow: 10px 5px 5px #2d2d2e;
   border-radius: 30px;
   padding: 20px;
 }
@@ -250,7 +254,7 @@ export default{
 }
 
 .font_sp{
-  //font-family: 'xingliti', Arial, Helvetica, san-serif;
+  font-family: 'xingliti', Arial, Helvetica, san-serif;
 }
 
 .shadow{
@@ -273,7 +277,8 @@ export default{
 
 
 
-.video-font{
-  background-image: url(/images/environment/131.png);
+.video_font{
+
+  /* background: url("/images/environment/131.JPG"); */
 }
 </style>
