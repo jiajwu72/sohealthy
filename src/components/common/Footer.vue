@@ -83,7 +83,7 @@ export default{
   /* left: 0; */
   width: 100%;
   height: 160px;
-  background-image: url(/images/environment/_DSC0506.JPG);
+  background-image: url(/images/environment/_DSC0506.png);
   background-size: cover;
   background-position: 40% 20%;
   /* filter: blur(4px); */

@@ -172,13 +172,13 @@ export default{
         {
           title:t1,
           text:txt1,
-          img:"images/environment/_DSC0538的副本.JPG",
+          img:"images/environment/_DSC0538的副本.png",
           video:"images/海参/冰岛红极参/1583275494958.mp4"
         },
         {
           title:t2,
           text:txt2,
-          img:"/images/environment/_DSC0490.JPG",
+          img:"/images/environment/_DSC0490.png",
           video:"images/海参/希腊海参/1586896135418.mp4",
         },
         // {

@@ -232,7 +232,7 @@
         show:false,
         slidesItem:[
           {
-            src: '/images/environment/_DSC0536.JPG',
+            src: '/images/environment/_DSC0538的副本.png',
           },
 
 
