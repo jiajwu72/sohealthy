@@ -11,7 +11,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/燕窝">印尼014燕窝</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/燕窝">印尼燕窝</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/海参">海参</a></li>
                     <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/bdhongjishen"> 冰岛红极参 </a></li> -->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/鱼胶"> 鱼胶 </a></li>
