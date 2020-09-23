@@ -2,75 +2,18 @@
 <div class="top" >
   <div class="player-container">
     <!-- <vue-core-video-player src="/videos/燕窝-工厂视频/1572398251550.mp4"></vue-core-video-player> -->
-    <VideoPlayer></VideoPlayer>
+    <VideoPlayer class="bg_pf_color2"></VideoPlayer>
 
 
-    <!-- <b-container class="sp_card">
-      <h4>燕窝泡发</h4>
-      <b-row>
 
-        <b-col md="4">
-
-            <v-img
-              class="white--text align-end"
-              height="200px"
-              src="/images/燕窝/展示/燕窝-泡发图/mmexport1558049524889.jpg"
-            >
-            </v-img>
-            <v-card-subtitle class="pb-0">主题</v-card-subtitle>
-
-            <v-card-text class="text--primary">
-              <div>xxxxx</div>
-
-              <div>xxxxxx</div>
-            </v-card-text>
-        </b-col>
-
-        <b-col md="4">
-
-            <v-img
-              class="white--text align-end"
-              height="200px"
-              src="/images/燕窝/展示/燕窝-泡发图/mmexport1558049524889.jpg"
-            >
-            </v-img>
-            <v-card-subtitle class="pb-0">主题</v-card-subtitle>
-
-            <v-card-text class="text--primary">
-              <div>xxxxx</div>
-
-              <div>xxxxxx</div>
-            </v-card-text>
-        </b-col>
-
-        <b-col md="4">
-            <v-img
-              class="white--text align-end"
-              height="200px"
-              src="/images/燕窝/展示/燕窝-泡发图/mmexport1558049524889.jpg"
-            >
-            </v-img>
-            <v-card-subtitle class="pb-0">主题</v-card-subtitle>
-
-            <v-card-text class="text--primary">
-              <div>xxxxx</div>
-
-              <div>xxxxxx</div>
-            </v-card-text>
-        </b-col>
-      </b-row>
-    </b-container> -->
-    <div class="content">
+    <!-- <div class="content">
       <b-container>
       <b-row>
-        <!-- <b-col md="6">
-          <Porfolio3 v-if="isMobile==false" :imgs="imgs" title="泡发实景图"></Porfolio3>
-          <Porfolio4 v-else></Porfolio4>
-        </b-col> -->
+
         <b-col md="6" style="text-align:center;">
           <div class="module" >
             <h3>炖煮步骤</h3>
-            <!-- <article class="recipe count-1" v-for="(item, index) in dunzhu" :key="index"> -->
+
             <article :class="['recipe','count-1',index==id?'active':'']" v-for="(item, index) in dunzhu" :key="index">
 
               <div class="counter">
@@ -78,7 +21,7 @@
               </div>
 
               <div class="post-details">
-              <!-- <div :class="['post-details',index==id?'active':'']"> -->
+
                 <p class="title">
                   <a style="cursor:pointer" @click="id=index">
                     {{item.title}}
@@ -87,25 +30,106 @@
               </div>
             </article>
           </div>
-          <!-- <TextDisplay1 :text="yanwo.paofa.desc"></TextDisplay1> -->
+
         </b-col>
         <b-col md="6">
           <v-card>
-            <!-- <v-img
-              height="250"
-              :src="dunzhu[id].src"
-            ></v-img> -->
+
             <Porfolio3 v-if="isMobile==false" :imgs="imgs" title="泡发实景图"></Porfolio3>
             <v-card-text>
               <span>{{dunzhu[id].desc}}</span>
             </v-card-text>
           </v-card>
-          <!-- <TextDisplay1 :text="dunzhu[id].desc"></TextDisplay1> -->
+
         </b-col>
       </b-row>
       </b-container>
+    </div> -->
+    <div class="text_pf_color bg_pf_color">
+    <b-container >
+    <b-row >
+      <b-col md="12">
+      <div >
+        <!-- <b-container class="bg_pf_color2 shadow"> -->
+        <div class="bg_pf_color2 shadow" style="text-align:center;padding:20px;">
+        <h1>
+          燕参堂教您发制燕窝</h1>
+          www.SoHealthy.eu
+        <b-row class="bg_pf_color shadow" style="margin:20px;">
+          <b-col md="4" sm="6" xs="6" class="little_overplay">
+            <v-img
+              src="/images/燕窝/1.png"
+              @click="overlay = !overlay"
+            ></v-img>
+
+            <h4> <div class="cercle bg_pf_color2 shadow">1</div> 浸泡</h4>
+            <p>准备无油器皿，倒入纯净水，放入燕窝，浸泡8个小时以上(尽量延长泡发时间)。</p>
+          </b-col>
+          <b-col md="4" sm="6" xs="6" class="little_overplay">
+            <v-img
+              src="/images/燕窝/2.png"
+              @click="overlay = !overlay"
+            ></v-img>
+            <h4><div class="cercle bg_pf_color2 shadow">2</div>撕条</h4>
+            <p>燕窝泡开后，顺着纹路撕成一条条丝状，燕角部位尽量搓开，再继续泡发几个小时。
+3.用镊子去除小细毛(由于我们的燕窝品质上乘，干净度极高，清洗时毫不费神)。</p>
+          </b-col>
+          <b-col md="4" sm="6" xs="6" class="little_overplay">
+            <v-img
+              src="/images/燕窝/3.png"
+              @click="overlay = !overlay"
+            ></v-img>
+            <h4 style="display:inline;"><div class="cercle bg_pf_color2 shadow">3</div>清洗去杂毛</h4>
+            <p>用镊子去除小细毛(由于我们的燕窝品质上乘，干净度极高，清洗时毫不费神)。</p>
+          </b-col>
+          <b-col md="4" sm="6" xs="6" class="little_overplay">
+            <v-img
+              src="/images/燕窝/4.png"
+              @click="overlay = !overlay"
+            ></v-img>
+            <h4><div class="cercle bg_pf_color2 shadow">4</div>炖煮</h4>
+            <p>将泡发好的燕窝放入炖盅，加入适量的水，盖上盖子隔水炖，水开后改用文火炖30-40分钟左右即可。</p>
+          </b-col>
+          <b-col md="4" sm="6" xs="6" class="little_overplay">
+            <v-img
+              src="/images/燕窝/5.png"
+              @click="overlay = !overlay"
+            ></v-img>
+            <h4 style="display:inline;"><div class="cercle bg_pf_color2 shadow">5</div>炖好出盅</h4>
+            <p>炖好的燕窝，色泽晶莹剔透，非常爽滑。自然冷却后放入冰箱可保存一周左右。</p>
+          </b-col>
+          <b-col md="4" sm="6" xs="6" class="little_overplay">
+            <v-img
+              src="/images/燕窝/6.png"
+              @click="overlay = !overlay"
+            ></v-img>
+            <h4><div class="cercle bg_pf_color2 shadow">6</div>燕窝的搭配</h4>
+            <p>炖好的燕窝可搭配牛奶，红枣，枸杞，龙眼...等等， 也可以搭配任何新鲜水果。</p>
+          </b-col>
+
+        </b-row>
+        </div>
+        <!-- </b-container> -->
+        <!-- <b-container> -->
+        <div style="padding:20px;">
+          <b-row>
+            <b-col class="bg_pf_color2 shadow" md="2" style="border-radius: 10% 0% 0% 10%;">
+              <h3>小贴士</h3>
+            </b-col>
+            <b-col md="1"></b-col>
+            <b-col class="bg_pf_color2 shadow" md="9">
+              <p>海参遇油污即化，请确保泡发或制煮器皿无油。海参因个体差异极小，在泡发时间上，可适度调整。</p>
+            </b-col>
+          </b-row>
+        </div>
+        <!-- </b-container> -->
+      </div>
+      </b-col>
+    </b-row>
+    </b-container>
     </div>
-    <div class="">
+
+    <div class="bg_pf_color2">
       <b-container>
         <b-card
           header="燕窝展"
@@ -133,13 +157,14 @@
       </b-container>
     </div>
 
+
   </div>
 </div>
 </template>
 
 <script>
 
-import Porfolio3 from '@/components/common/Porfolio3';
+// import Porfolio3 from '@/components/common/Porfolio3';
 // import Porfolio4 from '@/components/common/Porfolio4';
 import VideoPlayer from '@/components/common/Main';
 // import TextDisplay1 from '@/components/common/TextDisplay1';
@@ -161,7 +186,7 @@ export default{
 
   },
   components: {
-    Porfolio3,
+    // Porfolio3,
     // Porfolio4,
     // TextDisplay1,
     VideoPlayer,
@@ -249,20 +274,20 @@ h4{
     /* margin-top:100px; */
     /* background-color: #f5f5f5; */
     /* padding-top: 120px; */
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
     /* background-color: #F2EDE3; */
   }
 }
 
 .sp_card{
-  margin-top: 20px;
+  /* margin-top: 20px; */
   text-align: center;
   /* border:0px solid black; */
 }
 
-.top{
+/* .top{
   background-color: #F2EDE3;
-}
+} */
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300);
 
@@ -359,6 +384,34 @@ h4{
 
 .module .recipe .post-details .title a:active {
   color: #e31d38;
+}
+.shadow{
+  box-shadow: 5px 5px 5px #5d6d7e;
+}
+
+.cercle{
+  display: inline;
+  padding: 8px 12px 8px 12px;
+  border-radius: 50%;
+  /* background-color: orange; */
+  width: 40px;
+  height: 40px;
+}
+.font-black{
+  background-color: black;
+  height: 60px;
+  /* margin-bottom: px;  */
+}
+
+.bg_pf_color2{
+  /* background-color:rgb(45, 43, 53); */
+  background-color:rgb(255, 245, 244);
+}
+
+.bg_pf_color{
+  /* background-color:rgb(90, 86, 106); */
+
+  background-color:rgba(238, 222, 223,1);
 }
 
 </style>

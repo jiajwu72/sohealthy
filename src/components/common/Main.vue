@@ -73,7 +73,7 @@ export default {
 <style>
   .video_block{
     /* background-image: url("/images/燕窝/展示/10bdaa822c03d680ddf0c16e163b95ba.jpg"); */
-    background-image:url('https://www.cincojotas.fr/media/wysiwyg/3-_-DEHESA.jpg')
+    /* background-image:url('https://www.cincojotas.fr/media/wysiwyg/3-_-DEHESA.jpg') */
   }
   .main{
     padding-top: 120px;
