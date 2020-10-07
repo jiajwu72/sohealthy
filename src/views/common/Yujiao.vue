@@ -77,14 +77,37 @@
       <!-- </b-container> -->
     </div>
     </b-col>
-    <b-col md="6" style="display:flex;text-align:center;">
+    <!-- <b-col md="6" style="display:flex;text-align:center;">
       <div class="bg_pf_color2 shadow" style="margin:0 auto;width:75%;padding:20px;">
-        <h1>燕参堂海参泡发教程视频</h1>
-        <!-- <video height="auto" width="100%"  autoplay="false">
-          <source src="/images/海参/aleo 2020-09-09 16.59.05.mp4" type="video/mp4">
-        </video> -->
+        <div class="bg_pf_color2">
+          <b-container>
+            <b-card
+              header="燕参堂鱼胶展"
+              header-tag="header" style="color:black;">
+              <b-card-text>
+                <div id="scrollspy-nested" style="position:relative; height:700px; overflow-y:auto">
+                <b-row>
+                  <b-col md="4" v-for="(item, index) in imgsG" :key="index">
+                    <b-card
+                      class="mx-auto card_personel"
+                      max-width="344"
+                    >
+                      <v-img
+                        :src="item"
+                        height="200px"
+                        @click="overlay = !overlay"
+                      ></v-img>
+                    </b-card>
+                  </b-col>
+                </b-row>
+                </div>
+              </b-card-text>
+            </b-card>
+          </b-container>
+        </div>
+
       </div>
-    </b-col>
+    </b-col> -->
   </b-row>
 
 </div>
@@ -102,6 +125,7 @@ export default{
   data() {
     return {
       product:{},
+      imgsG:[],
     }
   },
   metaInfo: {
@@ -134,7 +158,12 @@ export default{
     // const t4="🌺巴西北海花胶";
     // const txt4="北海阴阳肚的主产区在苏里南和巴西，每支一般都不大，至多50~100克左右。阴阳肚胶身有两条比较明显的透明纹路，两个“耳朵”比其它北海胶都要长，而且不像其它北海胶耳朵只长在胶体头部，而是从胶体中上部一直延伸至头部。"+
     // "相比于其他北海花胶品种，北海阴阳肚上半部分比较厚实，下半部较薄，而且更长。";
-
+    this.imgsG=[
+      "",
+      "",
+      "",
+      "",
+    ]
 
     this.product={
 
@@ -151,17 +180,6 @@ export default{
           img:"/images/鱼胶/yujiao.png"
           // video:"/images/鱼胶/冰岛雪鱼胶/1592951088253.mp4",
         },
-        // {
-        //   title:t3,
-        //   text:txt3,
-        //   img:"https://24.media.tumblr.com/tumblr_mef649hlGH1qi1a91o1_1280.jpg"
-        // },
-        // {
-        //   title:t4,
-        //   text:txt4,
-        //   img:"https://24.media.tumblr.com/tumblr_mdji3d4gz01qi1a91o1_1280.jpg"
-        // },
-
       ]
     }
 
