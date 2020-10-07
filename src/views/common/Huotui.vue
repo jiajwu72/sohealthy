@@ -26,7 +26,7 @@
       <b-row>
         <b-col md="6">
           <v-img
-          src="/images/火腿/TB2jbFhjiRnpuFjSZFCXXX2DXXa_!!479954274.jpg"
+          src="/images/火腿/WechatIMG123.jpeg"
           ></v-img>
         </b-col>
         <b-col md="6">

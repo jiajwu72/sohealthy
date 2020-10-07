@@ -1,18 +1,10 @@
 <template>
   <div>
-    <!-- <div v-for="(item, index) in product.items" :key="index">
-      <div class="img"
-            :data-img="item.img">
-        <span class="multiline" style="margin-top:150px;">
-          <div class="container">
-            <span class="max">{{item.title}}</span>
-              <TextDisplay1 :text="item.text"></TextDisplay1>
-          </div>
-        </span>
-      </div>
+
+    <!-- <div class="exemple" style="background-image: url(images/environment/_DSC0538的副本.png);">
     </div> -->
     <div class="img"
-          :data-img="product.img">
+          :data-img="product.img" :style="cssImg">
       <span class="multiline" style="margin-top:150px;">
         <div class="container">
           <span class="max">{{product.title}}</span>
@@ -41,6 +33,16 @@ export default{
   created() {
 
   },
+
+
+  computed: {
+    cssImg() {
+      return {
+        "background-image": this.product.img
+      };
+    }
+  },
+
   mounted() {
     // this.$loadScript("/js/porfolio1.js")
     // .then((res) => {
@@ -66,7 +68,7 @@ height: 900px;
 /* attr data-type doesn't work anywhere for the moment :( */
 /* Even in chrome canary */
 /* So we do it the JS way */
-background-image: attr(data-img url); /* Keep it anyway */
+background-image: attr(data-img url);
 background-attachment: fixed;
 background-size: cover;
 background-position: center;
@@ -115,5 +117,9 @@ transition: opacity .5s;
 .img .permalink:hover
 {
 opacity: 1;
+}
+.exemple{
+  background-image: url("/images/鱼胶/北海鱼胶/_DSC0591.JPG");
+  /* background-image:url("/images/鱼胶/北海鱼胶/_DSC0591.JPG"); */
 }
 </style>

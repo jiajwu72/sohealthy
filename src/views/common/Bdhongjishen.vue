@@ -1,120 +1,116 @@
 <template>
 <div class="">
-  <!-- <div class="font-black">
-
-  </div> -->
 
   <div style="">
-  <div class="" v-for="(item, index) in product.items" :key="index" >
-    <Porfolio1 :product="item">
-    </Porfolio1>
-    <b-row class="fullSreen" style="background-color:rgb(102,102,102);">
-      <b-col md="9"  style="">
-        <!-- <TextDisplay1 :text="item.text"></TextDisplay1> -->
-        <div class="text_block fullSreen" style="background-color:rgb(45,43,54);">
-          <p id="scrollspy-nested" style="position:relative; height:100%; overflow-y:auto;color:white;">
-            {{item.text}}
-          </p>
-        </div>
-      </b-col>
-      <b-col md="3" class="fullSreen video_font" >
-        <!-- <img src="/images/environment/131.png" alt="" style="width:100%;border:1px red solid;" usemap="#workmap"> -->
-        <!-- <map name="workmap">
-          <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
-        </map> -->
-        <video height="420px" width="100%" autoplay muted loop style="">
-          <source :src="item.video" type="video/mp4">
-        </video>
-      </b-col>
-    </b-row>
-  </div>
-  </div>
-
-  <b-row class="text_pf_color bg_pf_color">
-  <b-col md="6">
-  <div >
-    <!-- <b-container class="bg_pf_color2 shadow"> -->
-    <div class="bg_pf_color2 shadow" style="text-align:center;padding:20px;">
-    <h1>
-      燕参堂教您发制希腊野生海参</h1>
-      www.SoHealthy.eu
-    <b-row class="bg_pf_color shadow" style="margin:20px;">
-      <b-col md="4" sm="6" xs="6" class="little_overplay">
-        <v-img
-          src="/images/海参/1.png"
-          @click="overlay = !overlay"
-        ></v-img>
-
-        <h4> <div class="cercle bg_pf_color2 shadow">1</div> 浸泡</h4>
-        <p>将海参洗净放入冰箱浸泡72小时，每天换水一次。</p>
-      </b-col>
-      <b-col md="4" sm="6" xs="6" class="little_overplay">
-        <v-img
-          src="/images/海参/2.png"
-          @click="overlay = !overlay"
-        ></v-img>
-        <h4><div class="cercle bg_pf_color2 shadow">2</div>去沙嘴</h4>
-        <p>将海参剖开，扣掉沙嘴清理沙质，把海参筋剪成2，3段。</p>
-      </b-col>
-      <b-col md="4" sm="6" xs="6" class="little_overplay">
-        <v-img
-          src="/images/海参/3.png"
-          @click="overlay = !overlay"
-        ></v-img>
-        <h4 style="display:inline;"><div class="cercle bg_pf_color2 shadow">3</div>水煮</h4>（第一次）
-        <p>上锅加盖煮沸，再改用文火煮30-60分钟。</p>
-      </b-col>
-      <b-col md="4" sm="6" xs="6" class="little_overplay">
-        <v-img
-          src="/images/海参/4.png"
-          @click="overlay = !overlay"
-        ></v-img>
-        <h4><div class="cercle bg_pf_color2 shadow">4</div>冷却</h4>
-        <p>闷在锅内，自然冷却后换水，放入冰箱继续泡一夜。</p>
-      </b-col>
-      <b-col md="4" sm="6" xs="6" class="little_overplay">
-        <v-img
-          src="/images/海参/5.png"
-          @click="overlay = !overlay"
-        ></v-img>
-        <h4 style="display:inline;"><div class="cercle bg_pf_color2 shadow">5</div>水煮</h4>(第二次)
-        <p>把软的海参继续水煮，用筷子夹起来俩边自然下垂就可以了。</p>
-      </b-col>
-      <b-col md="4" sm="6" xs="6" class="little_overplay">
-        <v-img
-          src="/images/海参/6.png"
-          @click="overlay = !overlay"
-        ></v-img>
-        <h4><div class="cercle bg_pf_color2 shadow">6</div>冷藏</h4>
-        <p>换凉水放入冰箱低温再泡3天，泡发完成，每天换水可保存2，3周，也可以单独冷藏保存。</p>
-      </b-col>
-
-    </b-row>
-    </div>
-    <!-- </b-container> -->
-    <!-- <b-container> -->
-    <div style="padding:20px;">
-      <b-row>
-        <b-col class="bg_pf_color2 shadow" md="2" style="border-radius: 10% 0% 0% 10%;">
-          <h3>小贴士</h3>
+    <div class="" v-for="(item, index) in product.items" :key="index" >
+      <Porfolio1 :product="item">
+      </Porfolio1>
+      <b-row class="fullSreen" style="background-color:rgb(102,102,102);">
+        <b-col md="9"  style="">
+          <!-- <TextDisplay1 :text="item.text"></TextDisplay1> -->
+          <div class="text_block fullSreen" style="background-color:rgb(45,43,54);">
+            <p id="scrollspy-nested" style="position:relative; height:100%; overflow-y:auto;color:white;">
+              {{item.text}}
+            </p>
+          </div>
         </b-col>
-        <b-col md="1"></b-col>
-        <b-col class="bg_pf_color2 shadow" md="9">
-          <p>海参遇油污即化，请确保泡发或制煮器皿无油。海参因个体差异极小，在泡发时间上，可适度调整。</p>
+        <b-col md="3" class="fullSreen video_font" >
+          <!-- <img src="/images/environment/131.png" alt="" style="width:100%;border:1px red solid;" usemap="#workmap"> -->
+          <!-- <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+          </map> -->
+          <video height="420px" width="100%" autoplay muted loop style="">
+            <source :src="item.video" type="video/mp4">
+          </video>
         </b-col>
       </b-row>
     </div>
-    <!-- </b-container> -->
   </div>
-  </b-col>
-  <b-col md="6" style="display:flex;text-align:center;">
-    <div class="bg_pf_color2 shadow" style="margin:0 auto;width:75%;padding:20px;">
-      <h1>燕参堂海参泡发教程视频</h1>
-      <video height="auto" width="100%"  >
-        <source src="/images/海参/aleo 2020-09-09 16.59.05.mp4" type="video/mp4">
-      </video>
+
+  <b-row class="text_pf_color bg_pf_color">
+    <b-col md="6">
+      <div >
+      <!-- <b-container class="bg_pf_color2 shadow"> -->
+      <div class="bg_pf_color2 shadow" style="text-align:center;padding:20px;">
+      <h1>
+        燕参堂教您发制希腊野生海参</h1>
+        www.SoHealthy.eu
+      <b-row class="bg_pf_color shadow" style="margin:20px;">
+        <b-col md="4" sm="6" xs="6" class="little_overplay">
+          <v-img
+            src="/images/海参/1.png"
+            @click="overlay = !overlay"
+          ></v-img>
+
+          <h4> <div class="cercle bg_pf_color2 shadow">1</div> 浸泡</h4>
+          <p>将海参洗净放入冰箱浸泡72小时，每天换水一次。</p>
+        </b-col>
+        <b-col md="4" sm="6" xs="6" class="little_overplay">
+          <v-img
+            src="/images/海参/2.png"
+            @click="overlay = !overlay"
+          ></v-img>
+          <h4><div class="cercle bg_pf_color2 shadow">2</div>去沙嘴</h4>
+          <p>将海参剖开，扣掉沙嘴清理沙质，把海参筋剪成2，3段。</p>
+        </b-col>
+        <b-col md="4" sm="6" xs="6" class="little_overplay">
+          <v-img
+            src="/images/海参/3.png"
+            @click="overlay = !overlay"
+          ></v-img>
+          <h4 style="display:inline;"><div class="cercle bg_pf_color2 shadow">3</div>水煮</h4>（第一次）
+          <p>上锅加盖煮沸，再改用文火煮30-60分钟。</p>
+        </b-col>
+        <b-col md="4" sm="6" xs="6" class="little_overplay">
+          <v-img
+            src="/images/海参/4.png"
+            @click="overlay = !overlay"
+          ></v-img>
+          <h4><div class="cercle bg_pf_color2 shadow">4</div>冷却</h4>
+          <p>闷在锅内，自然冷却后换水，放入冰箱继续泡一夜。</p>
+        </b-col>
+        <b-col md="4" sm="6" xs="6" class="little_overplay">
+          <v-img
+            src="/images/海参/5.png"
+            @click="overlay = !overlay"
+          ></v-img>
+          <h4 style="display:inline;"><div class="cercle bg_pf_color2 shadow">5</div>水煮</h4>(第二次)
+          <p>把软的海参继续水煮，用筷子夹起来俩边自然下垂就可以了。</p>
+        </b-col>
+        <b-col md="4" sm="6" xs="6" class="little_overplay">
+          <v-img
+            src="/images/海参/6.png"
+            @click="overlay = !overlay"
+          ></v-img>
+          <h4><div class="cercle bg_pf_color2 shadow">6</div>冷藏</h4>
+          <p>换凉水放入冰箱低温再泡3天，泡发完成，每天换水可保存2，3周，也可以单独冷藏保存。</p>
+        </b-col>
+
+      </b-row>
+      </div>
+
+      <div style="padding:20px;">
+        <b-row>
+          <b-col class="bg_pf_color2 shadow" md="2" style="border-radius: 10% 0% 0% 10%;">
+            <h3>小贴士</h3>
+          </b-col>
+          <b-col md="1"></b-col>
+          <b-col class="bg_pf_color2 shadow" md="9">
+            <p>海参遇油污即化，请确保泡发或制煮器皿无油。海参因个体差异极小，在泡发时间上，可适度调整。</p>
+          </b-col>
+        </b-row>
+      </div>
+      <!-- </b-container> -->
     </div>
-  </b-col>
+    </b-col>
+    <b-col md="6" style="display:flex;text-align:center;">
+      <div class="bg_pf_color2 shadow" style="margin:0 auto;width:75%;padding:20px;">
+        <h1>燕参堂海参泡发教程视频</h1>
+        <video height="auto" width="100%"  autoplay="false">
+          <source src="/images/海参/aleo 2020-09-09 16.59.05.mp4" type="video/mp4">
+        </video>
+      </div>
+    </b-col>
   </b-row>
 </div>
 </template>
