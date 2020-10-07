@@ -77,17 +77,17 @@
       <!-- </b-container> -->
     </div>
     </b-col>
-    <!-- <b-col md="6" style="display:flex;text-align:center;">
+    <b-col md="6" style="display:flex;text-align:center;">
       <div class="bg_pf_color2 shadow" style="margin:0 auto;width:75%;padding:20px;">
         <div class="bg_pf_color2">
           <b-container>
             <b-card
-              header="燕参堂鱼胶展"
+              header=""
               header-tag="header" style="color:black;">
               <b-card-text>
                 <div id="scrollspy-nested" style="position:relative; height:700px; overflow-y:auto">
                 <b-row>
-                  <b-col md="4" v-for="(item, index) in imgsG" :key="index">
+                  <b-col md="12" v-for="(item, index) in imgsG" :key="index">
                     <b-card
                       class="mx-auto card_personel"
                       max-width="344"
@@ -107,7 +107,7 @@
         </div>
 
       </div>
-    </b-col> -->
+    </b-col>
   </b-row>
 
 </div>
@@ -159,10 +159,10 @@ export default{
     // const txt4="北海阴阳肚的主产区在苏里南和巴西，每支一般都不大，至多50~100克左右。阴阳肚胶身有两条比较明显的透明纹路，两个“耳朵”比其它北海胶都要长，而且不像其它北海胶耳朵只长在胶体头部，而是从胶体中上部一直延伸至头部。"+
     // "相比于其他北海花胶品种，北海阴阳肚上半部分比较厚实，下半部较薄，而且更长。";
     this.imgsG=[
-      "",
-      "",
-      "",
-      "",
+      "/images/鱼胶/屏幕快照 2020-10-07 16.23.48.png",
+      "/images/鱼胶/屏幕快照 2020-10-07 16.20.34.png",
+      "/images/鱼胶/屏幕快照 2020-10-07 16.24.24.png",
+
     ]
 
     this.product={
