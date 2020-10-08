@@ -85,7 +85,7 @@
               header=""
               header-tag="header" style="color:black;">
               <b-card-text>
-                <div id="scrollspy-nested" style="position:relative; height:700px; overflow-y:auto">
+                <div id="scrollspy-nested" style="position:relative; height:900px; overflow-y:auto">
                 <b-row>
                   <b-col md="12" v-for="(item, index) in imgsG" :key="index">
                     <b-card
@@ -162,6 +162,8 @@ export default{
       "/images/鱼胶/屏幕快照 2020-10-07 16.23.48.png",
       "/images/鱼胶/屏幕快照 2020-10-07 16.20.34.png",
       "/images/鱼胶/屏幕快照 2020-10-07 16.24.24.png",
+      "/images/鱼胶/屏幕快照 2020-10-08 11.53.43.png",
+      "/images/鱼胶/屏幕快照 2020-10-08 11.59.37.png",
 
     ]
 

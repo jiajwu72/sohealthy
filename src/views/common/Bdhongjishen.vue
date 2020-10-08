@@ -5,7 +5,7 @@
     <div class="" v-for="(item, index) in product.items" :key="index" >
       <Porfolio1 :product="item">
       </Porfolio1>
-      <b-row class="fullSreen" style="background-color:rgb(102,102,102);">
+      <b-row class="fullSreen" style="background-color:rgb(102,102,102);" v-if="item.text">
         <b-col md="9"  style="">
           <!-- <TextDisplay1 :text="item.text"></TextDisplay1> -->
           <div class="text_block fullSreen" style="background-color:rgb(45,43,54);">
@@ -26,7 +26,8 @@
       </b-row>
     </div>
   </div>
-
+  <Porfolio1 :product="item">
+  </Porfolio1>
   <b-row class="text_pf_color bg_pf_color">
     <b-col md="6">
       <div >
@@ -175,6 +176,12 @@ export default{
           title:t2,
           text:txt2,
           img:"/images/environment/_DSC0490.png",
+          video:"images/海参/希腊海参/1586896135418.mp4",
+        },
+        {
+          title:"",
+          text:"",
+          img:"/images/海参/WechatIMG89.jpeg",
           video:"images/海参/希腊海参/1586896135418.mp4",
         },
         // {
