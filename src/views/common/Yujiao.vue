@@ -34,7 +34,7 @@
         燕参堂教您发制北海黄鱼胶</h1>
         www.SoHealthy.eu
       <b-row class="bg_pf_color shadow" style="margin:20px;">
-        <b-col md="4" sm="6" xs="6" class="little_overplay">
+        <b-col md="6" sm="6" xs="6" class="little_overplay">
           <v-img
             src="/images/鱼胶/1.png"
             @click="overlay = !overlay"
@@ -43,7 +43,7 @@
           <h4> <div class="cercle bg_pf_color2 shadow">1</div> </h4>
           <p>准备一个干净的锅，加入饮用水，水要多，开火把水烧开，放入姜片，少量料酒，葱去腥，加入鱼胶</p>
         </b-col>
-        <b-col md="4" sm="6" xs="6" class="little_overplay">
+        <b-col md="6" sm="6" xs="6" class="little_overplay">
           <v-img
             src="/images/鱼胶/2.png"
             @click="overlay = !overlay"
@@ -51,7 +51,7 @@
           <h4><div class="cercle bg_pf_color2 shadow">2</div></h4>
           <p>把鱼胶放入锅内，盖上锅盖关火，把鱼胶闷在锅里面，等开水自然冷却。这是鱼胶明显变大变厚！</p>
         </b-col>
-        <b-col md="4" sm="6" xs="6" class="little_overplay">
+        <b-col md="6" sm="6" xs="6" class="little_overplay">
           <v-img
             src="/images/鱼胶/3.png"
             @click="overlay = !overlay"
@@ -59,7 +59,7 @@
           <h4 style="display:inline;"><div class="cercle bg_pf_color2 shadow">3</div></h4>
           <p>鱼胶换水，继续泡发5-6个小时即可完成第二次泡发。此时鱼胶已经完整而充分泡发了。</p>
         </b-col>
-        <b-col md="4" sm="6" xs="6" class="little_overplay">
+        <b-col md="6" sm="6" xs="6" class="little_overplay">
           <v-img
             src="/images/鱼胶/4.png"
             @click="overlay = !overlay"

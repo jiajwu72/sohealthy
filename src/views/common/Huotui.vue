@@ -1,8 +1,8 @@
 <template>
 <div class="">
-  <div class="head">
+  <!-- <div class="head">
 
-  </div>
+  </div> -->
   <div class="content">
     <v-icon dark right>mdi-checkbox-marked-circle</v-icon>
 
@@ -67,11 +67,11 @@
       <br>
       <h1>西班牙火腿-Cebo de campo</h1>
       <b-row>
-        <b-col md="6">
+        <!-- <b-col md="6">
           <v-img
           src="/images/火腿/mmexport1498589569141.jpg"
           ></v-img>
-        </b-col>
+        </b-col> -->
         <b-col md="6">
           <v-img
           src="/images/火腿/IMG_20181123_140857_mh1588085422249.jpg"
