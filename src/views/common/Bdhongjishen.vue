@@ -113,6 +113,40 @@
       </div>
     </b-col>
   </b-row>
+  <b-row class="text_pf_color" style="background-color:rgb(102,102,102);">
+    <b-col md="12" style="display:flex;text-align:center;">
+      <div class="bg_pf_color shadow" style="margin:0 auto;width:75%;padding:20px;">
+        <div class="bg_pf_color">
+          <b-container>
+            <b-card
+              header=""
+              header-tag="header" style="color:black;">
+              <b-card-text>
+                <div id="scrollspy-nested" style="position:relative; height:500px; overflow-y:auto">
+                <b-row>
+                  <b-col md="4" v-for="(item, index) in imgsG" :key="index">
+                    <b-card
+                      class="mx-auto card_personel"
+                      max-width="344"
+                    >
+                      <v-img
+                        :src="item"
+                        height="200px"
+                        @click="overlay = !overlay"
+                      ></v-img>
+                    </b-card>
+                  </b-col>
+                </b-row>
+                </div>
+              </b-card-text>
+            </b-card>
+          </b-container>
+        </div>
+
+      </div>
+    </b-col>
+  </b-row>
+
 </div>
 </template>
 
@@ -139,6 +173,7 @@ export default{
   data() {
     return {
       product:{},
+      imgsG:[],
     }
   },
   created() {
@@ -149,6 +184,18 @@ export default{
     .catch((e) => {
       console.log("e:",e);
     })
+
+    this.imgsG=[
+      "/images/海参/IMG_20200806_081139.jpg",
+      "/images/海参/mmexport1596650852389.jpg",
+      "/images/海参/mmexport1596658779965.jpg",
+      "/images/海参/屏幕快照 2020-10-08 14.07.18.png",
+      "/images/海参/屏幕快照 2020-10-08 14.13.14.png",
+      "/images/海参/屏幕快照 2020-10-08 14.21.23.png",
+
+
+    ]
+
     const t1="";
     const txt1="希腊刺参，产自希腊北方萨索斯岛（Thasos Island）南端海滩，被称作是环保达标的“蓝旗海域”的地方。该区域水质纯净、温度低、盐分适中。希腊人不食用海参，加上该海域人迹罕至，野生欧然海参物产丰富，符合海参天然慢生长的特性。海参鉴别 首先要了解产地：生长在高温海域的海参，海参长得很快但营养成分不高；而极寒海域，很少有海参生长。所以最优质的海参，都是生长在北纬39~45°之间的温带、亚寒带交界海域。希腊附近多个海域都有海参生长，都在北纬39度以北区域的，希腊海参闻起来有淡淡的海水的咸味。"
 
