@@ -164,6 +164,11 @@ export default{
       "/images/鱼胶/屏幕快照 2020-10-07 16.24.24.png",
       "/images/鱼胶/屏幕快照 2020-10-08 11.53.43.png",
       "/images/鱼胶/屏幕快照 2020-10-08 11.59.37.png",
+      "/images/鱼胶/WechatIMG2.jpeg",
+      "/images/鱼胶/WechatIMG3.jpeg",
+      "/images/鱼胶/WechatIMG4.jpeg",
+      "/images/鱼胶/WechatIMG5.jpeg",
+      "/images/鱼胶/WechatIMG6.jpeg",
 
     ]
 
