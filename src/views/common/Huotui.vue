@@ -65,7 +65,7 @@
         </b-col>
       </b-row>
       <br>
-      <h1>西班牙火腿</h1>
+      <h1>我们产品</h1>
       <b-row>
         <!-- <b-col md="6">
           <v-img
@@ -97,8 +97,14 @@
 
           </div> -->
         </b-col>
-        <!-- <b-col md="6" class="text_block">
+        <b-col md="6">
+          <v-img
+          src="/images/火腿/_LOMO 70Gr.jpg"
+          ></v-img>
+        </b-col>
 
+        <!-- <b-col md="6" class="text_block">
+          _LOMO 70Gr.jpg
         </b-col>
         <b-col md="6">
           <v-img
