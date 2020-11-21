@@ -1,8 +1,11 @@
 <template>
 
   <div>
-    <Carousel :slides="slidesItem" ></Carousel>
-
+    <!-- <Carousel :slides="slidesItem" ></Carousel> -->
+    <v-img
+      
+      src="/images/environment/_DSC0536.png"
+    ></v-img>
     <b-container >
       <b-row>
         <b-col md="1"></b-col>
@@ -201,7 +204,7 @@
 
 <script>
 
-   import Carousel from '@/components/common/Carousel';
+   // import Carousel from '@/components/common/Carousel';
    // import TimeLine from '@/components/common/TimeLine';
    // import JQuery from 'jquery'
    // let $ = JQuery;
@@ -210,7 +213,7 @@
     name:"Home",
     components:{
        // GoogleMap,
-       Carousel,
+       // Carousel,
        // TimeLine
     },
     props:[

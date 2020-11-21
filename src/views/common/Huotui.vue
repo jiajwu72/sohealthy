@@ -26,12 +26,12 @@
       <b-row>
         <b-col md="6">
           <v-img
-          src="/images/火腿/WechatIMG123.jpeg"
+          src="/images/火腿/jambon 5J.png"
           ></v-img>
         </b-col>
         <b-col md="6">
           <v-img
-          src="/images/火腿/TB2O8hzhHXlpuFjSszfXXcSGXXa_!!479954274.jpg"
+          src="/images/火腿/CAVE.jpg"
           ></v-img>
           <div class="text_block">
             <p>
@@ -42,7 +42,7 @@
 
         <b-col md="12">
           <v-img
-          src="/images/火腿/TB2kZd7jbBmpuFjSZFAXXaQ0pXa_!!479954274.jpg"
+          src="/images/火腿/CERDOS 1.png"
           ></v-img>
         </b-col>
 
@@ -65,25 +65,38 @@
         </b-col>
       </b-row>
       <br>
-      <h1>西班牙火腿-Cebo de campo</h1>
+      <h1>西班牙火腿</h1>
       <b-row>
         <!-- <b-col md="6">
           <v-img
           src="/images/火腿/mmexport1498589569141.jpg"
           ></v-img>
         </b-col> -->
+
         <b-col md="6">
+
           <v-img
-          src="/images/火腿/IMG_20181123_140857_mh1588085422249.jpg"
+          src="/images/火腿/_TUBE LOMO 500Gr.jpg"
+          style="width:40%;"
           ></v-img>
-          <div class="text_block">
+          <!-- <div class="text_block">
             <p>
               谷饲林地散养伊比利亚黑猪火腿，成品为白色标签
             </p>
 
-          </div>
+          </div> -->
         </b-col>
+        <b-col md="6">
+          <v-img
+          src="/images/火腿/_JAMBON 70Gr.jpg"
+          ></v-img>
+          <!-- <div class="text_block">
+            <p>
+              谷饲林地散养伊比利亚黑猪火腿，成品为白色标签
+            </p>
 
+          </div> -->
+        </b-col>
         <!-- <b-col md="6" class="text_block">
 
         </b-col>
