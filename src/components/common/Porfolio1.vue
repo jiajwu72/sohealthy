@@ -68,9 +68,11 @@ height: 900px;
 /* attr data-type doesn't work anywhere for the moment :( */
 /* Even in chrome canary */
 /* So we do it the JS way */
+background-color: black;
 background-image: attr(data-img url);
 background-attachment: fixed;
-background-size: cover;
+background-size: 100%;
+/* background-size: cover; */
 background-position: center;
 border-bottom: 3px solid white;
 text-align: center;
