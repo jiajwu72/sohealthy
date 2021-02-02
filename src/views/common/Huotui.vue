@@ -76,7 +76,7 @@
           </b-col>
         </b-row>
       <div class="divider">
-        <p class="title">
+        <p class="title titleSize">
             我们的产品
         </p>
       </div>
@@ -94,7 +94,6 @@
             70克薄片装
           </p>
         </b-col>
-
         <b-col md="3" id="wrapper">
           <div id="elDiv">
             <v-img
@@ -108,7 +107,6 @@
             70克薄片装
           </p>
         </b-col>
-
         <b-col md="3" id="wrapper">
           <div id="elDiv">
             <v-img
@@ -122,7 +120,6 @@
             40克薄片装
           </p>
         </b-col>
-
         <b-col md="3" id="wrapper">
           <div id="elDiv">
             <v-img
@@ -150,7 +147,6 @@
             40g*12整盒送礼礼盒
           </p>
         </b-col>
-
         <b-col md="3" id="wrapper">
           <div id="elDiv">
             <v-img
@@ -164,7 +160,7 @@
             70g*12整盒送礼礼盒
           </p>
         </b-col>
-        <b-col md="3" id="wrapper">
+        <!-- <b-col md="3" id="wrapper">
           <div id="elDiv">
             <v-img
               src="/images/火腿/new-product-image-7.jpg"
@@ -189,7 +185,7 @@
           <p>
             整只1.5-3kg按实际重量多退少补
           </p>
-        </b-col>
+        </b-col> -->
         <b-col md="3" id="wrapper">
           <div id="elDiv">
             <v-img
@@ -216,7 +212,7 @@
             70g*12整盒送礼礼盒
           </p>
         </b-col>
-        <b-col md="3" id="wrapper">
+        <!-- <b-col md="3" id="wrapper">
           <div id="elDiv">
             <v-img
               src="/images/火腿/htx2.jpg"
@@ -254,7 +250,7 @@
           <p>
             70g*2包礼盒装
           </p>
-        </b-col>
+        </b-col> -->
         <b-col md="3" id="wrapper">
           <div id="elDiv">
             <v-img
@@ -268,72 +264,110 @@
             礼盒 新年送礼
           </p>
         </b-col>
+
+        <b-col md="3" id="wrapper">
+          <div id="elDiv">
+            <v-img
+              src="/images/火腿/_TUBE LOMO 500Gr.jpg"
+            ></v-img>
+          </div>
+          <p class="title titleSizeMini">
+            橡果喂养100%伊比利亚火腿 黑腿里脊
+          </p>
+          <p>
+            400-600g
+          </p>
+        </b-col>
+
+        <b-col md="3" id="wrapper">
+          <div id="elDiv">
+            <v-img
+              src="/images/火腿/WechatIMG1395.jpeg"
+            ></v-img>
+          </div>
+          <p class="title titleSizeMini">
+            橡果喂养100%伊比利亚火腿 腊肠
+          </p>
+          <p>
+            400-600g
+          </p>
+        </b-col>
+
+        <b-col md="3" id="wrapper">
+          <div id="elDiv">
+            <v-img
+              src="/images/火腿/WechatIMG1396.jpeg"
+            ></v-img>
+          </div>
+          <p class="title titleSizeMini">
+            橡果喂养100%伊比利亚火腿 腌肩坝肉
+          </p>
+          <p>
+            400-600g
+          </p>
+        </b-col>
       </b-row>
-
-
       </div>
-      <!-- <h1>西班牙 5J火腿</h1>
-      <b-row>
-        <b-col md="6">
-          <v-img
-          src="/images/火腿/jambon 5J.png"
-          ></v-img>
-        </b-col>
-        <b-col md="6">
-          <v-img
-          src="/images/火腿/CAVE.jpg"
-          ></v-img>
-          <div class="text_block">
-            <p>
-              只要提到火腿，相信每个吃货都会自然而然想到中国三大火腿，除此之外，不得不提到的当数西班牙火腿，而西班牙火腿却分为很多品牌和等级，排名第一的火腿毫无疑问就是伊比利亚火腿（jamón ibérico），而伊比利亚火腿中质量最好的毫无疑问就是西班牙5J伊比利亚火腿，其被誉为全世界最高级别的火腿品牌。
-            </p>
-          </div>
-        </b-col>
-
-        <b-col md="12">
-          <v-img
-          src="/images/火腿/CERDOS 1.png"
-          ></v-img>
-        </b-col>
-
-        <b-col md="6">
-          <v-img
-          src="/images/火腿/TB2LYpNjiRnpuFjSZFCXXX2DXXa_!!479954274.jpg"
-          ></v-img>
-        </b-col>
-        <b-col md="6">
-
-          <div class="text_block">
-            <p>
-            好的伊比利亚火腿因选用橡树果喂养而充满果香与油脂的香气，丝毫不会过咸，可以直接食用。需注意的是，不要用刀叉，直接用手把切好的火腿片送入口中，才能享受到细腻的肉质和毫不油腻的脂肪部位。
-            <br>
-            除了口感鲜美，伊比利亚火腿的营养价值也很高。据最新研究表明，它不仅富含人体组织所需的蛋白质和维他命B1、B6及B12，还含有对人体神经系统和大脑有益的叶酸和对骨骼有益的铜、铁和磷等矿物质。
-            </p>
-          </div>
-        </b-col>
-      </b-row>
-      <br>
-      <h1>我们的产品</h1>
-      <b-row>
-        <b-col md="6">
-          <v-img
-          src="/images/火腿/_TUBE LOMO 500Gr.jpg"
-          style="width:40%;"
-          ></v-img>
-        </b-col>
-        <b-col md="6">
-          <v-img
-          src="/images/火腿/_JAMBON 70Gr.jpg"
-          ></v-img>
-        </b-col>
-        <b-col md="6">
-          <v-img
-          src="/images/火腿/_LOMO 70Gr.jpg"
-          ></v-img>
-        </b-col>
-      </b-row> -->
+      <div class="divider">
+        <p class="title titleSize">
+            更多介绍
+        </p>
+      </div>
+      <div class="Block">
+        <b-row>
+          <b-col md="6" style="display:flex;">
+            <v-img
+              src="/images/火腿/WechatIMG1399.png"
+            ></v-img>
+          </b-col>
+          <b-col md="6">
+            <v-img
+              src="/images/火腿/WechatIMG1401.png"
+            ></v-img>
+          </b-col>
+          <b-col md="6" style="display:flex;">
+            <v-img
+              src="/images/火腿/WechatIMG1400.png"
+            ></v-img>
+          </b-col>
+          <b-col md="6">
+            <v-img
+              src="/images/火腿/WechatIMG1402.png"
+            ></v-img>
+          </b-col>
+          <b-col md="6">
+            <v-img
+              src="/images/火腿/WechatIMG1403.jpeg"
+            ></v-img>
+          </b-col>
+        </b-row>
+      </div>
 
 
+        <b-card
+          style="margin-top:50px;"
+          header="舌尖美食"
+          header-tag="header">
+          <b-card-text>
+            <div id="scrollspy-nested" style="position:relative; height:500px; overflow-y:auto">
+            <b-row>
+              <b-col md="4" v-for="(item, index) in imgsG" :key="index">
+                <b-card
+                  class="mx-auto card_personel"
+                  max-width="344"
+                >
+                  <v-img
+                    :src="item"
+                    height="200px"
+                    @click="overlay = !overlay"
+                  ></v-img>
+                </b-card>
+              </b-col>
+            </b-row>
+            </div>
+          </b-card-text>
+          <!-- <b-button href="#" variant="primary">了解更多</b-button> -->
+        </b-card>
     </b-container>
   </div>
 
@@ -360,6 +394,17 @@ export default{
   data() {
     return {
       huotui:[],
+      imgsG:[
+        "/images/火腿/WechatIMG1407.jpeg",
+        "/images/火腿/WechatIMG1410.jpeg",
+        "/images/火腿/WechatIMG1411.jpeg",
+        "/images/火腿/WechatIMG1412.jpeg",
+        "/images/火腿/WechatIMG1406.jpeg",
+        "/images/火腿/WechatIMG1405.jpeg",
+        "/images/火腿/WechatIMG1409.jpeg",
+        "/images/火腿/WechatIMG1413.jpeg",
+
+      ],
     }
   },
   created() {
@@ -449,5 +494,14 @@ p{
   width: 100%;
   display: inline-block;
 }
+.bg_pf_color2{
+  /* background-color:rgb(45, 43, 53); */
+  background-color:rgb(255, 245, 244);
+}
 
+.bg_pf_color{
+  /* background-color:rgb(90, 86, 106); */
+
+  background-color:rgba(238, 222, 223,1);
+}
 </style>

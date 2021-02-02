@@ -6,45 +6,7 @@
 
 
 
-    <!-- <div class="content">
-      <b-container>
-      <b-row>
 
-        <b-col md="6" style="text-align:center;">
-          <div class="module" >
-            <h3>炖煮步骤</h3>
-
-            <article :class="['recipe','count-1',index==id?'active':'']" v-for="(item, index) in dunzhu" :key="index">
-
-              <div class="counter">
-                <span>{{index+1}}</span>
-              </div>
-
-              <div class="post-details">
-
-                <p class="title">
-                  <a style="cursor:pointer" @click="id=index">
-                    {{item.title}}
-                  </a>
-                </p>
-              </div>
-            </article>
-          </div>
-
-        </b-col>
-        <b-col md="6">
-          <v-card>
-
-            <Porfolio3 v-if="isMobile==false" :imgs="imgs" title="泡发实景图"></Porfolio3>
-            <v-card-text>
-              <span>{{dunzhu[id].desc}}</span>
-            </v-card-text>
-          </v-card>
-
-        </b-col>
-      </b-row>
-      </b-container>
-    </div> -->
     <div class="text_pf_color bg_pf_color">
     <b-container >
     <b-row >
