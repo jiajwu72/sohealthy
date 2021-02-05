@@ -28,6 +28,7 @@
     <b-col>
       <v-img
         src="/images/红酒/carlos_i.jpg"
+
       ></v-img>
     </b-col>
   </b-row>
@@ -70,7 +71,7 @@ export default{
       slidesItem:[
         {src:"/images/红酒/homepage-1_0.jpg"},
         {src:"/images/红酒/homepage-4.jpg"},
-        {src:"/images/红酒/homepage-5.jpg"},
+        // {src:"/images/红酒/homepage-5.jpg"},
       ],
       LinkItems:[
         {
