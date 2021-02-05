@@ -66,57 +66,18 @@
 <style scoped>
 @import '/css/normalize.css';
 @import '/css/style.css';
-/*
-.bloc{
-  display: flex;
-  height: 770px;
-  position: relative;
-}
 
-.content{
-  margin:0 auto;
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-
-}
-
-label{
-  font-size: 20px;
-  font-family: NeueHelveticaforZara-BoldCn,Arial,sans-serif;
-  color:white;
-  font-weight: bold;
-  line-height: 40px;
-
-}
-.vetical-middle{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  margin:0 auto;
-}
-
-.bigTitle{
-  font-size:40px;
-}
-
-*{
-  color: white;
-}
-
-a{
-  text-decoration: none;
-  cursor:pointer;
-}
-.col{
-  display: flex;
-} */
 
 .fullScreen{
   padding: 0px;
   margin: 0px;
 }
 
+.v-image{
+  max-width: 100%;
+}
+img{
+  max-width: 100%;
+}
 
 </style>

@@ -10,7 +10,7 @@
   </div>
 
   <b-row style="background-color:black;padding:20px;color:white;">
-    <b-col md="6" style="text-align:center;">
+    <b-col md="6" style="text-align:center;padding-left:30px;padding-right:30px;">
       <h2>凯罗斯一世雪利白兰地 Carlos I Sherry Brandy</h2> &nbsp;
       <p>品牌神奇诞生</p>
 
@@ -122,6 +122,7 @@ export default{
   margin: auto;
   color: white;
 }
+
 
 
 
