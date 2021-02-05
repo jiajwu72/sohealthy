@@ -13,25 +13,10 @@
                 <ul class="navbar-nav text-uppercase ml-auto">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/燕窝">印尼燕窝</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/海参">海参</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/bdhongjishen"> 冰岛红极参 </a></li> -->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/鱼胶"> 鱼胶 </a></li>
-                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="bdxueyujiao"> 冰岛鳕鱼胶 </a></li> -->
-                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">鱼胶</a></li> -->
-                    <!-- <li class="nav-item">
-                      <span class="nav-link js-scroll-trigger list_parent">
-                        鱼胶
-                      </span>
-                      <div class="list">
-                        display me
-                      </div>
-                      <ul class="list">
-                        <li><a class="nav-link js-scroll-trigger" href="">北海鱼胶</a></li>
-                        <li><a class="nav-link js-scroll-trigger" href="#services">冰岛鳕鱼胶</a></li>
-                      </ul>
-
-                    </li> -->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/伊朗藏红花">伊朗藏红花</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/火腿"> 西班牙火腿 </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/CarlosXo"> Carlos Xo </a></li>
                 </ul>
             </div>
       </div>
