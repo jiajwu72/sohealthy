@@ -25,7 +25,7 @@
       <p>An infinite number of spirit drinks exist in the world, but only a few can be considered premium spirits on an international level. Carlos I is present in more than 40 countries with strong presence in Germany, Spain, Philippines, Italy and Mexico among others. Carlos I is a benchmark in its category being the brand with the most awareness in Spain and market leader in Germany, the most important brandy market in Europe.</p>
     </b-col>
 
-    <b-col>
+    <b-col style="padding-left:60px;padding-right:60px;">
       <v-img
         src="/images/红酒/carlos_i.jpg"
 
