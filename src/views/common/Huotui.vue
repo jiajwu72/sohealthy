@@ -6,6 +6,7 @@
   <div>
     <v-img
       src="/images/火腿/Front_logo.jpg"
+      height="800"
     ></v-img>
   </div>
   <div class="content">
@@ -187,7 +188,7 @@
             70g*12整盒送礼礼盒
           </p>
         </b-col>
-        
+
         <b-col md="3" id="wrapper">
           <div id="elDiv">
             <v-img
@@ -223,7 +224,8 @@
             ></v-img>
           </div>
           <p class="title titleSizeMini">
-            橡果喂养100%伊比利亚火腿 腊肠
+            橡果喂养100%伊比利亚火腿 腌肩坝肉
+
           </p>
           <p>
             400-600g
@@ -237,7 +239,7 @@
             ></v-img>
           </div>
           <p class="title titleSizeMini">
-            橡果喂养100%伊比利亚火腿 腌肩坝肉
+            橡果喂养100%伊比利亚火腿 腊肠
           </p>
           <p>
             400-600g
