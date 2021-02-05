@@ -5,7 +5,7 @@
   <div class="container-fluid getHeight"
        style="display:flex;min-height:100px;background:#000;color:#bb994e;">
     <div class="container text-center" style="margin:auto;">
-      <h1 class="vline" style="">产品 • PROUDUITS</h1>
+      <h1 class="vline" style="">产品 • PRODUITS</h1>
     </div>
   </div>
 
