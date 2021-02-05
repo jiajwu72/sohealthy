@@ -15,7 +15,7 @@
         </div>
     </section>
 
-    <v-footer class="footer">
+    <div class="footer">
       <div class="container">
         <b-row>
           <b-col md="2" sm="2" cols="2">
@@ -36,22 +36,8 @@
           </b-col>
         </b-row>
       </div>
-    </v-footer>
-    <!-- <div class="container">
-      <v-row>
-        <v-col md="2" sm="2">
-          <b-img src="/images/environment/WechatIMG80.jpeg" fluid alt="Responsive image" style="height:100px;width:auto;"></b-img>
-        </v-col>
-        <v-col md="8" sm="8" style="text-align:left;">
-          <h6 style="color:white;line-height:25px;">
-            11 rue de la présentation <br>
-            75011 PARIS 11 <br>
-            Métro Belleville ligne 11 2 <br>
-            tél : +337 69 88 20 88
-          </h6>
-        </v-col>
-      </v-row>
-    </div> -->
+    </div>
+
   </div>
 
   <!-- </v-footer> -->
@@ -87,7 +73,7 @@ export default{
   /* bottom: 0; */
   /* left: 0; */
   width: 100%;
-  height: 160px;
+  //height: 160px;
   background-image: url(/images/environment/_DSC0506.png);
   background-size: cover;
   background-position: 40% 20%;

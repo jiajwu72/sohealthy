@@ -1,4 +1,3 @@
-//import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/views/common/Home'
 import Ynyanwo from '@/views/common/Ynyanwo'
@@ -6,10 +5,8 @@ import Yujiao from '@/views/common/Yujiao'
 import Bdhongjishen from '@/views/common/Bdhongjishen'
 import Huotui from '@/views/common/Huotui'
 import Ylzanghonghua from '@/views/common/ylzanghonghua'
-// import ProfileOther from '@/views/common/ProfileOther'
-// import ProfileUser from '@/views/common/ProfileUser'
-// import Reset from '@/views/common/Reset'
-// import AuthMiddleware from '@/middleware/auth'
+import CarlosXo from '@/views/common/CarlosXo'
+
 
 
 const router= new Router({
@@ -18,9 +15,6 @@ const router= new Router({
       path:'/',
       name:'Home',
       component:Home,
-      // meta: {
-      //   // requiresAuth: true
-      // }
     },
     {
       path:'/燕窝',
@@ -46,6 +40,11 @@ const router= new Router({
       path:'/伊朗藏红花',
       name:'ylzanghonghua',
       component:Ylzanghonghua,
+    },
+    {
+      path:'/carlosXo',
+      name:'carlosXo',
+      component:CarlosXo,
     },
 
   ],

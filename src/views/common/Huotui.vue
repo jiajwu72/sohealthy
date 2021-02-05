@@ -160,32 +160,7 @@
             70g*12整盒送礼礼盒
           </p>
         </b-col>
-        <!-- <b-col md="3" id="wrapper">
-          <div id="elDiv">
-            <v-img
-              src="/images/火腿/new-product-image-7.jpg"
-            ></v-img>
-          </div>
-          <p class="title titleSizeMini">
-            橡果喂养100%伊比利亚火腿 后腿去骨整只
-          </p>
-          <p>
-            整只2.5-4.5kg按实际重量多退少补
-          </p>
-        </b-col>
-        <b-col md="3" id="wrapper">
-          <div id="elDiv">
-            <v-img
-              src="/images/火腿/new-product-image-8.jpg"
-            ></v-img>
-          </div>
-          <p class="title titleSizeMini">
-            橡果喂养100%伊比利亚火腿 前腿去骨整只
-          </p>
-          <p>
-            整只1.5-3kg按实际重量多退少补
-          </p>
-        </b-col> -->
+
         <b-col md="3" id="wrapper">
           <div id="elDiv">
             <v-img
@@ -212,45 +187,7 @@
             70g*12整盒送礼礼盒
           </p>
         </b-col>
-        <!-- <b-col md="3" id="wrapper">
-          <div id="elDiv">
-            <v-img
-              src="/images/火腿/htx2.jpg"
-            ></v-img>
-          </div>
-          <p class="title titleSizeMini">
-            橡果喂养100%伊比利亚火腿 后腿火腿心
-          </p>
-          <p>
-            450g盒装
-          </p>
-        </b-col>
-        <b-col md="3" id="wrapper">
-          <div id="elDiv">
-            <v-img
-              src="/images/火腿/new-product-image-13.jpg"
-            ></v-img>
-          </div>
-          <p class="title titleSizeMini">
-            橡果喂养100%伊比利亚火腿 后腿薄片
-          </p>
-          <p>
-            40g*2包礼盒装
-          </p>
-        </b-col>
-        <b-col md="3" id="wrapper">
-          <div id="elDiv">
-            <v-img
-              src="/images/火腿/new-product-image-10.jpg"
-            ></v-img>
-          </div>
-          <p class="title titleSizeMini">
-            橡果喂养100%伊比利亚火腿 后腿薄片
-          </p>
-          <p>
-            70g*2包礼盒装
-          </p>
-        </b-col> -->
+        
         <b-col md="3" id="wrapper">
           <div id="elDiv">
             <v-img
